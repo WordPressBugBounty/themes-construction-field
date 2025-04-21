@@ -2,18 +2,19 @@
 if ( ! function_exists( 'construction_field_excerpt_length' ) ) :
 	/**
 	 * Excerpt length
+	 *
 	 * @since Construction Field 1.0.0
 	 *
 	 * @param int $length number of words
 	 * @return int
 	 */
 	function construction_field_excerpt_length( $length ) {
-		if( is_admin() ){
+		if ( is_admin() ) {
 			return $length;
 		}
 
-		global $construction_field_customizer_all_values;
-		$excerpt_length = absint( $construction_field_customizer_all_values['construction-field-blog-archive-excerpt-length'] );
+		$construction_field_customizer_all_values = construction_field_get_theme_options();
+		$excerpt_length                           = absint( $construction_field_customizer_all_values['construction-field-blog-archive-excerpt-length'] );
 		if ( empty( $excerpt_length ) ) {
 			$excerpt_length = $length;
 		}
@@ -33,14 +34,13 @@ if ( ! function_exists( 'construction_field_content_more_link' ) ) :
 	 */
 	function construction_field_content_more_link( $more_link, $more_original_text ) {
 
-		global $construction_field_customizer_all_values;
-		$more_text = esc_html( $construction_field_customizer_all_values['construction-field-blog-archive-more-text'] );
+		$construction_field_customizer_all_values = construction_field_get_theme_options();
+		$more_text                                = esc_html( $construction_field_customizer_all_values['construction-field-blog-archive-more-text'] );
 		if ( ! empty( $more_text ) ) {
 			$more_link = str_replace( $more_original_text, esc_html( $more_text ), $more_link );
 			$more_link = str_replace( 'more-link', 'more-link btn btn-primary', $more_link );
 		}
 		return $more_link;
-
 	}
 endif;
 
@@ -55,12 +55,12 @@ if ( ! function_exists( 'construction_field_excerpt_read_more' ) ) :
 	 */
 	function construction_field_excerpt_read_more( $more ) {
 
-		$output = $more;
-		global $construction_field_customizer_all_values;
-		$more_text = esc_html( $construction_field_customizer_all_values['construction-field-blog-archive-more-text'] );
+		$output                                   = $more;
+		$construction_field_customizer_all_values = construction_field_get_theme_options();
+		$more_text                                = esc_html( $construction_field_customizer_all_values['construction-field-blog-archive-more-text'] );
 		if ( ! empty( $more_text ) ) {
-			$output = ' <a href="'. esc_url( get_permalink() ) . '" class="more-link btn btn-primary">' . esc_html( $more_text ) . '</a>';
-			$output = apply_filters( 'construction_field_filter_read_more_link' , $output );
+			$output = ' <a href="' . esc_url( get_permalink() ) . '" class="more-link btn btn-primary">' . esc_html( $more_text ) . '</a>';
+			$output = apply_filters( 'construction_field_filter_read_more_link', $output );
 		}
 		return $output;
 	}

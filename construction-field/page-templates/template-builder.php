@@ -8,11 +8,12 @@
  * @subpackage Construction Field
  */
 get_header();
-global $construction_field_customizer_all_values;
+$construction_field_customizer_all_values = construction_field_get_theme_options();
 
-while ( have_posts() ) : the_post();
+while ( have_posts() ) :
+	the_post();
 
-    the_content();
+	the_content();
 
 endwhile; // End of the loop.
 

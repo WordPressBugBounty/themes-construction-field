@@ -1,45 +1,45 @@
 <?php
 /**
  * Dynamic css
+ *
  * @since Construction Field 1.0.0
  *
  * @param null
  * @return void
- *
  */
 if ( ! function_exists( 'construction_field_dynamic_css' ) ) :
 
-    function construction_field_dynamic_css() {
+	function construction_field_dynamic_css() {
 
-        global $construction_field_customizer_all_values;
-        /*Color options */
-        $construction_field_header_height = esc_attr( $construction_field_customizer_all_values['construction-field-header-height'] );
-        $construction_field_primary_color = esc_attr( $construction_field_customizer_all_values['construction-field-primary-color'] );
-        $construction_field_header_top_bg_color = esc_attr( $construction_field_customizer_all_values['construction-field-header-top-bg-color'] );
-        $construction_field_footer_bg_color = esc_attr( $construction_field_customizer_all_values['construction-field-footer-bg-color'] );
-        $construction_field_footer_bottom_bg_color = esc_attr( $construction_field_customizer_all_values['construction-field-footer-bottom-bg-color'] );
+		$construction_field_customizer_all_values = construction_field_get_theme_options();
+		/*Color options */
+		$construction_field_header_height          = esc_attr( $construction_field_customizer_all_values['construction-field-header-height'] );
+		$construction_field_primary_color          = esc_attr( $construction_field_customizer_all_values['construction-field-primary-color'] );
+		$construction_field_header_top_bg_color    = esc_attr( $construction_field_customizer_all_values['construction-field-header-top-bg-color'] );
+		$construction_field_footer_bg_color        = esc_attr( $construction_field_customizer_all_values['construction-field-footer-bg-color'] );
+		$construction_field_footer_bottom_bg_color = esc_attr( $construction_field_customizer_all_values['construction-field-footer-bottom-bg-color'] );
 
-        /*animation*/
-        $construction_field_enable_animation = $construction_field_customizer_all_values['construction-field-enable-animation'];
+		/*animation*/
+		$construction_field_enable_animation = $construction_field_customizer_all_values['construction-field-enable-animation'];
 
-	    $custom_css = '';
+		$custom_css = '';
 
-        /*animation*/
-        if( 1 == $construction_field_enable_animation ){
-            $custom_css .= "
+		/*animation*/
+		if ( 1 == $construction_field_enable_animation ) {
+			$custom_css .= '
              .init-animate {
                 visibility: visible !important;
              }
-             ";
-        }
-        /*background*/
-	    $construction_field_header_image_display = esc_attr( $construction_field_customizer_all_values['construction-field-header-image-display'] );
-	    if( 'bg-image' == $construction_field_header_image_display || 'hide' == $construction_field_header_image_display ){
-		    $bg_image_url ='';
-		    if( get_header_image() && 'bg-image' == $construction_field_header_image_display ){
-			    $bg_image_url = esc_url( get_header_image() );
-		    }
-		    $custom_css .= "
+             ';
+		}
+		/*background*/
+		$construction_field_header_image_display = esc_attr( $construction_field_customizer_all_values['construction-field-header-image-display'] );
+		if ( 'bg-image' == $construction_field_header_image_display || 'hide' == $construction_field_header_image_display ) {
+			$bg_image_url = '';
+			if ( get_header_image() && 'bg-image' == $construction_field_header_image_display ) {
+				$bg_image_url = esc_url( get_header_image() );
+			}
+			$custom_css .= "
               .inner-main-title {
                 background-image:url('{$bg_image_url}');
                 background-repeat:no-repeat;
@@ -48,22 +48,22 @@ if ( ! function_exists( 'construction_field_dynamic_css' ) ) :
                 background-position: center; 
                 height: {$construction_field_header_height}px;
             }";
-	    }
+		}
 
-        /*color*/
-        $custom_css .= "
+		/*color*/
+		$custom_css .= "
             .top-header{
                 background-color: {$construction_field_header_top_bg_color};
             }";
-        $custom_css .= "
+		$custom_css .= "
             .site-footer{
                 background-color: {$construction_field_footer_bg_color};
             }";
-        $custom_css .= "
+		$custom_css .= "
             .copy-right{
                 background-color: {$construction_field_footer_bottom_bg_color};
             }";
-        $custom_css .= "
+		$custom_css .= "
         .site-title,
 	        .site-title a,
 	        .site-description,
@@ -126,8 +126,8 @@ if ( ! function_exists( 'construction_field_dynamic_css' ) ) :
                 color: {$construction_field_primary_color};
             }";
 
-        /*background color*/
-        $custom_css .= "
+		/*background color*/
+		$custom_css .= "
             .navbar .navbar-toggle:hover,
             .navbar .navbar-toggle:focus,
             .main-navigation .current_page_ancestor > a:before,
@@ -179,8 +179,8 @@ if ( ! function_exists( 'construction_field_dynamic_css' ) ) :
                 color:#fff;
             }";
 
-        /*borders*/
-	    $custom_css .= "
+		/*borders*/
+		$custom_css .= "
             .woocommerce .cart .button, 
             .woocommerce .cart input.button,
             .woocommerce a.button.add_to_cart_button,
@@ -201,12 +201,12 @@ if ( ! function_exists( 'construction_field_dynamic_css' ) ) :
 			.woocommerce div.product .woocommerce-tabs ul.tabs:before{
                 border: 1px solid {$construction_field_primary_color};
             }";
-        $custom_css .= "
+		$custom_css .= "
             .blog article.sticky{
                 border-bottom: 2px solid {$construction_field_primary_color};
             }";
-	    
-        wp_add_inline_style( 'construction-field-style', $custom_css );
-    }
+
+		wp_add_inline_style( 'construction-field-style', $custom_css );
+	}
 endif;
 add_action( 'wp_enqueue_scripts', 'construction_field_dynamic_css', 99 );

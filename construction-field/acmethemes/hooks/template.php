@@ -20,12 +20,11 @@ add_action( 'construction_field_action_posts_navigation', 'construction_field_po
  *
  * @param null
  * @return string
- *
  */
-if ( !function_exists('construction_field_featured_image_display') ) :
+if ( ! function_exists( 'construction_field_featured_image_display' ) ) :
 	function construction_field_featured_image_display( $post_id ) {
-		global $construction_field_customizer_all_values;
-		$construction_field_single_image_layout = $construction_field_customizer_all_values['construction-field-single-img-size'];
+		$construction_field_customizer_all_values = construction_field_get_theme_options();
+		$construction_field_single_image_layout   = $construction_field_customizer_all_values['construction-field-single-img-size'];
 
 		return $construction_field_single_image_layout;
 	}

@@ -8,7 +8,7 @@
  * @subpackage Construction Field
  */
 get_header();
-global $construction_field_customizer_all_values;
+$construction_field_customizer_all_values = construction_field_get_theme_options();
 ?>
 <div class="wrapper inner-main-title">
 	<?php
@@ -18,7 +18,7 @@ global $construction_field_customizer_all_values;
 		<header class="entry-header init-animate">
 			<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'construction-field' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			<?php
-			if( 1 == $construction_field_customizer_all_values['construction-field-show-breadcrumb'] ){
+			if ( 1 == $construction_field_customizer_all_values['construction-field-show-breadcrumb'] ) {
 				construction_field_breadcrumbs();
 			}
 			?>
@@ -28,7 +28,7 @@ global $construction_field_customizer_all_values;
 <div id="content" class="site-content container clearfix">
 	<?php
 	$sidebar_layout = construction_field_sidebar_selection();
-	if( 'both-sidebar' == $sidebar_layout ) {
+	if ( 'both-sidebar' == $sidebar_layout ) {
 		echo '<div id="primary-wrap" class="clearfix">';
 	}
 	?>
@@ -38,7 +38,8 @@ global $construction_field_customizer_all_values;
 		if ( have_posts() ) :
 
 			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+			while ( have_posts() ) :
+				the_post();
 
 				/**
 				 * Run the loop for the search to output the results.
@@ -51,6 +52,7 @@ global $construction_field_customizer_all_values;
 
 			/**
 			 * construction_field_action_posts_navigation hook
+			 *
 			 * @since Construction Field 1.0.0
 			 *
 			 * @hooked construction_field_posts_navigation - 10
@@ -61,16 +63,18 @@ global $construction_field_customizer_all_values;
 
 			get_template_part( 'template-parts/content', 'none' );
 
-		endif; ?>
+		endif;
+		?>
 
 		</main><!-- #main -->
 	</section><!-- #primary -->
 	<?php
 	get_sidebar( 'left' );
 	get_sidebar();
-	if( 'both-sidebar' == $sidebar_layout ) {
+	if ( 'both-sidebar' == $sidebar_layout ) {
 		echo '</div>';
 	}
 	?>
 </div><!-- #content -->
-<?php get_footer();
+<?php
+get_footer();

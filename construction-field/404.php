@@ -8,7 +8,7 @@
  * @subpackage Construction Field
  */
 get_header();
-global $construction_field_customizer_all_values;
+$construction_field_customizer_all_values = construction_field_get_theme_options();
 ?>
 <div class="wrapper inner-main-title">
 	<?php
@@ -18,7 +18,7 @@ global $construction_field_customizer_all_values;
 		<header class="entry-header init-animate">
 			<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'construction-field' ); ?></h1>
 			<?php
-			if( 1 == $construction_field_customizer_all_values['construction-field-show-breadcrumb'] ){
+			if ( 1 == $construction_field_customizer_all_values['construction-field-show-breadcrumb'] ) {
 				construction_field_breadcrumbs();
 			}
 			?>
@@ -37,4 +37,5 @@ global $construction_field_customizer_all_values;
 		</main><!-- #main -->
 	</div><!-- #primary -->
 </div><!-- #content -->
-<?php get_footer();
+<?php
+get_footer();
