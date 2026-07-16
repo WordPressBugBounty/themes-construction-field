@@ -53,17 +53,17 @@ if ( ! class_exists( 'Construction_Field_Feature' ) ) {
 			$button_two_url     = esc_url( $instance[ 'button_two_url' ] );
 			?>
 			<p>
-				<label for="<?php echo $this->get_field_id( 'unique_id' ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?></label>
-				<input class="widefat" id="<?php echo $this->get_field_id( 'unique_id' ); ?>" name="<?php echo $this->get_field_name( 'unique_id' ); ?>" type="text" value="<?php echo $unique_id; ?>" />
+				<label for="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?></label>
+				<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'unique_id' ) ); ?>" type="text" value="<?php echo $unique_id; ?>" />
 				<br />
 				<small><?php esc_html_e('Enter a Unique Section ID. You can use this ID in Menu item for enabling One Page Menu.','construction-field')?></small>
 			</p>
 			<p>
-				<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?></label>
-				<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
+				<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?></label>
+				<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo $title; ?>" />
 			</p>
             <p>
-                <label for="<?php echo $this->get_field_id('bg_image'); ?>">
+                <label for="<?php echo esc_attr( $this->get_field_id( 'bg_image' ) ); ?>">
 					<?php esc_html_e( 'Select Background Image', 'construction-field' ); ?>
                 </label>
 				<?php
@@ -75,29 +75,29 @@ if ( ! class_exists( 'Construction_Field_Feature' ) ) {
                 <span class="img-preview-wrap" <?php echo  $construction_field_display_none ; ?>>
                     <img class="widefat" src="<?php echo esc_url( $bg_image ); ?>" alt="<?php esc_attr_e( 'Image preview', 'construction-field' ); ?>"  />
                 </span><!-- .img-preview-wrap -->
-                <input type="text" class="widefat" name="<?php echo $this->get_field_name('bg_image'); ?>" id="<?php echo $this->get_field_id('bg_image'); ?>" value="<?php echo esc_url( $bg_image ); ?>" />
+                <input type="text" class="widefat" name="<?php echo esc_attr( $this->get_field_name( 'bg_image' ) ); ?>" id="<?php echo esc_attr( $this->get_field_id( 'bg_image' ) ); ?>" value="<?php echo esc_url( $bg_image ); ?>" />
                 <input type="button" value="<?php esc_attr_e( 'Upload Image', 'construction-field' ); ?>" class="button media-image-upload" data-title="<?php esc_attr_e( 'Select Background Image','construction-field'); ?>" data-button="<?php esc_attr_e( 'Select Background Image','construction-field'); ?>"/>
                 <input type="button" value="<?php esc_attr_e( 'Remove Image', 'construction-field' ); ?>" class="button media-image-remove" />
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'feature_title' ); ?>"><?php esc_html_e( 'Feature Title', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'feature_title' ); ?>" name="<?php echo $this->get_field_name( 'feature_title' ); ?>" type="text" value="<?php echo $feature_title; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'feature_title' ) ); ?>"><?php esc_html_e( 'Feature Title', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'feature_title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'feature_title' ) ); ?>" type="text" value="<?php echo esc_html( $feature_title ); ?>" />
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'button_one_text' ); ?>"><?php esc_html_e( 'Extra Button Text', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'button_one_text' ); ?>" name="<?php echo $this->get_field_name( 'button_one_text' ); ?>" type="text" value="<?php echo $button_one_text; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'button_one_text' ) ); ?>"><?php esc_html_e( 'Extra Button Text', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'button_one_text' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'button_one_text' ) ); ?>" type="text" value="<?php echo $button_one_text; ?>" />
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'button_one_url' ); ?>"><?php esc_html_e( 'Button Link Url', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'button_one_url' ); ?>" name="<?php echo $this->get_field_name( 'button_one_url' ); ?>" type="text" value="<?php echo $button_one_url; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'button_one_url' ) ); ?>"><?php esc_html_e( 'Button Link Url', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'button_one_url' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'button_one_url' ) ); ?>" type="text" value="<?php echo $button_one_url; ?>" />
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'button_two_text' ); ?>"><?php esc_html_e( 'Extra Button Text', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'button_two_text' ); ?>" name="<?php echo $this->get_field_name( 'button_two_text' ); ?>" type="text" value="<?php echo $button_two_text; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'button_two_text' ) ); ?>"><?php esc_html_e( 'Extra Button Text', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'button_two_text' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'button_two_text' ) ); ?>" type="text" value="<?php echo $button_two_text; ?>" />
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'button_two_url' ); ?>"><?php esc_html_e( 'Button Link Url', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'button_two_url' ); ?>" name="<?php echo $this->get_field_name( 'button_two_url' ); ?>" type="text" value="<?php echo $button_two_url; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'button_two_url' ) ); ?>"><?php esc_html_e( 'Button Link Url', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'button_two_url' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'button_two_url' ) ); ?>" type="text" value="<?php echo $button_two_url; ?>" />
             </p>
 			<?php
 		}
@@ -163,7 +163,7 @@ if ( ! class_exists( 'Construction_Field_Feature' ) ) {
 				$bg_image_class = 'at-no-parallax';
 			}
 			?>
-			<section id="<?php echo $unique_id;?>" class="at-widgets primary-bg <?php echo $bg_image_class; ?> " style="<?php echo $bg_image_style; ?>">
+			<section id="<?php echo esc_attr( $unique_id ); ?>" class="at-widgets primary-bg <?php echo $bg_image_class; ?> " style="<?php echo esc_attr( $bg_image_style ); ?>">
 				<div class="container">
 					<?php
 					if( ! empty( $title ) ){
@@ -174,27 +174,27 @@ if ( ! class_exists( 'Construction_Field_Feature' ) ) {
 					$animation1 = "init-animate zoomIn";
 					?>
 					<div class="row">
-                        <div class="col-md-12 <?php echo $animation1;?>">
+                        <div class="col-md-12 <?php echo esc_attr( $animation1 ); ?>">
 	                        <?php
 	                        if( !empty( $feature_title ) ) {
-		                        echo $feature_title;
+		                        echo esc_html( $feature_title );
 	                        }
 	                        ?>
                         </div>
-						<div class="col-md-12 at-btn-wrap <?php echo $animation1;?>">
+						<div class="col-md-12 at-btn-wrap <?php echo esc_attr( $animation1 ); ?>">
                             <?php
                             if( !empty( $button_one_text ) ){
                                 ?>
-                                <a href="<?php echo $button_one_url; ?>" class="init-animate zoomIn btn btn-primary btn-reverse outline-outward banner-btn">
-                                    <?php echo $button_one_text;?>
+                                <a href="<?php echo esc_url( $button_one_url ); ?>" class="init-animate zoomIn btn btn-primary btn-reverse outline-outward banner-btn">
+                                    <?php echo esc_html( $button_one_text ); ?>
                                     <i class="fa fa-angle-double-right"></i>
                                 </a>
                                 <?php
                             }
                             if( !empty( $button_two_text ) ){
                                 ?>
-                                <a href="<?php echo $button_two_url; ?>" class="init-animate zoomIn btn btn-primary btn-reverse outline-outward banner-btn">
-	                                <?php echo $button_two_text;?>
+                                <a href="<?php echo esc_url( $button_two_url ); ?>" class="init-animate zoomIn btn btn-primary btn-reverse outline-outward banner-btn">
+	                                <?php echo esc_html( $button_two_text ); ?>
                                     <i class="fa fa-angle-double-right"></i>
                                 </a>
                                 <?php

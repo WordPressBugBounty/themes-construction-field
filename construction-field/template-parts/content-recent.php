@@ -27,8 +27,8 @@ global  $construction_field_read_more_text;
         }
         ?>
 
-        <div class="entry-content <?php echo $no_blog_image?>">
-            <header class="entry-header <?php echo $no_blog_image; ?>">
+        <div class="entry-content <?php echo esc_attr( $no_blog_image ); ?>">
+            <header class="entry-header <?php echo esc_attr( $no_blog_image ); ?>">
                 <div class="entry-meta">
 			        <?php
 			        construction_field_cats_lists()

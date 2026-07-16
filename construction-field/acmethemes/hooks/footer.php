@@ -20,7 +20,7 @@ if ( ! function_exists( 'construction_field_footer' ) ) :
 		}
 		?>
 		<div class="clearfix"></div>
-		<footer class="site-footer" style=" <?php echo $style; ?>">
+		<footer class="site-footer" style=" <?php echo esc_attr( $style ); ?>">
 			<?php
 			$footer_column = 0;
 			if ( is_active_sidebar( 'footer-col-one' ) ) {

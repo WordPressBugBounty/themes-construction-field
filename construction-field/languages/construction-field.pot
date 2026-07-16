@@ -1,804 +1,836 @@
-# Copyright (C) 2016-2018 the Acme Themes
+# Copyright (C) 2026 acmethemes
 # This file is distributed under the GNU General Public License v2 or later.
-
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: Construction Field\n"
-"POT-Creation-Date: 2018-05-05 23:11+0545\n"
-"PO-Revision-Date: 2018-05-05 23:10+0545\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Project-Id-Version: Construction Field 4.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/construction-field\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-WPHeader: style.css\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
+"POT-Creation-Date: 2026-07-16T12:25:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: construction-field\n"
+
+#. Theme Name of the theme
+#: style.css
+#: acmethemes/admin-notice/class-admin-notice-handler.php:180
+#: acmethemes/at-theme-info/class-at-theme-info.php:1298
+#: acmethemes/hooks/slider-selection.php:30
+msgid "Construction Field"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.acmethemes.com/themes/construction-field/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Construction Field is a WordPress theme special design for Construction Agency, Relate State Agency, Architecture house and overall construction and real estate sites.  For a construction company, it's very important to showcase services in a very pleasant and distinct way to let their current clients be updated and attract more valuable customers. This WordPress theme serves that purpose. Construction Field included important features for presenting online presence of any company beautifully.  Its a fully responsive, multi-purpose theme and SEO friendly theme. It has a highly customized option and advanced widgets which lets the user design the whole look of the site without touching code. Having noted features such as About Section, Service Section, Gallery Section, Blog/News Section, Social Media Integration, Theme Options, Testimonial, FAQ/Accordion, Layout/Design Controls and many others makes it more advanced. Demo: http://demo.acmethemes.com/construction-field Support: https://www.acmethemes.com/supports/"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "acmethemes"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.acmethemes.com/"
+msgstr ""
 
 #: 404.php:19
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
 #: 404.php:33
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links "
-"below or a search?"
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:53
-#: acmethemes/at-theme-info/class-at-theme-info.php:71
+#: acmethemes/admin-notice/class-admin-notice-handler.php:128
+msgid "Processing..."
+msgstr ""
+
+#: acmethemes/admin-notice/class-admin-notice-handler.php:149
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: acmethemes/admin-notice/class-admin-notice-handler.php:153
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: acmethemes/admin-notice/class-admin-notice-handler.php:177
+msgid "Dismiss"
+msgstr ""
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link ending html tag.
+#: acmethemes/admin-notice/class-admin-notice-handler.php:186
 #, php-format
-msgid ""
-"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
-"our theme can offer please make sure you visit our %2$swelcome page%3$s."
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer, please make sure you visit our %2$swelcome page%3$s."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:53
-#: acmethemes/at-theme-info/class-at-theme-info.php:71
+#: acmethemes/admin-notice/class-admin-notice-handler.php:190
+#: acmethemes/at-theme-info/class-at-theme-info.php:684
+msgid "Clicking the button below will install and activate the Advanced Import plugin."
+msgstr ""
+
+#: acmethemes/admin-notice/class-admin-notice-handler.php:192
+#: acmethemes/admin-notice/class-admin-notice-handler.php:193
+#: acmethemes/at-theme-info/class-at-theme-info.php:685
+#: acmethemes/at-theme-info/class-at-theme-info.php:686
+msgid "Get started with Construction Field"
+msgstr ""
+
+#: acmethemes/admin-notice/class-admin-notice-handler.php:227
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: acmethemes/admin-notice/class-admin-notice-handler.php:299
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#. Translators: %1$s current user display name.
+#: acmethemes/admin-notice/class-admin-notice-handler.php:389
 #, php-format
-msgid "Get started with %s"
+msgid "Howdy, %1$s! It seems that you have been using this theme for more than 15 days. We hope you are happy with everything that the theme has to offer. If you can spare a minute, please help us by leaving a 5-star review on WordPress.org.  By spreading the love, we can continue to develop new amazing features in the future, for free!"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:69
-#: acmethemes/at-theme-info/class-at-theme-info.php:70
-msgid "Info"
+#: acmethemes/admin-notice/class-admin-notice-handler.php:400
+msgid "Sure"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:498
-#: acmethemes/at-theme-info/class-at-theme-info.php:627
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:2717
-msgid "Install"
+#: acmethemes/admin-notice/class-admin-notice-handler.php:405
+msgid "Maybe later"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:503
-#: acmethemes/at-theme-info/class-at-theme-info.php:632
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:2726
-msgid "Activate"
+#: acmethemes/admin-notice/class-admin-notice-handler.php:410
+msgid "I already did"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:509
-#: acmethemes/at-theme-info/class-at-theme-info.php:638
-msgid "Deactivate"
+#: acmethemes/admin-notice/class-admin-notice-handler.php:415
+msgid "Got theme support question?"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:527
-msgid "Hooray! There are no recommended actions for you right now."
-msgstr ""
-
-#: acmethemes/at-theme-info/class-at-theme-info.php:528
-msgid "Show All Recommended Actions"
-msgstr ""
-
-#: acmethemes/at-theme-info/class-at-theme-info.php:613
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:298
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:423
-msgid "|"
-msgstr ""
-
-#: acmethemes/at-theme-info/class-at-theme-info.php:618
-msgid "Active:"
-msgstr ""
-
-#: acmethemes/at-theme-info/class-at-theme-info.php:693
-msgid "Download"
-msgstr ""
-
-#: acmethemes/at-theme-info/class-at-theme-info.php:696
-msgid "Live Preview"
-msgstr ""
-
-#. Theme Name of the plugin/theme
-#: acmethemes/at-theme-info/class-at-theme-info.php:837
-#: acmethemes/hooks/slider-selection.php:31
-msgid "Construction Field"
-msgstr ""
-
-#: acmethemes/at-theme-info/class-at-theme-info.php:838
-msgid "Construction Field Pro"
-msgstr ""
-
-#: acmethemes/at-theme-info/class-at-theme-info.php:1007
-#: acmethemes/at-theme-info/class-at-theme-info.php:1010
+#: acmethemes/at-theme-info/class-at-theme-info.php:42
+#: acmethemes/at-theme-info/class-at-theme-info.php:45
 msgid "Construction Field Info"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1013
+#: acmethemes/at-theme-info/class-at-theme-info.php:48
 #, php-format
 msgid "Welcome to %s - "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1016
+#: acmethemes/at-theme-info/class-at-theme-info.php:51
 #, php-format
-msgid ""
-"%s is now installed and ready to use. We hope the following information will "
-"help you. If you want to ask any query or just want to say hello, you can "
-"always contact us. We hope you enjoy it! "
+msgid "%s is now installed and ready to use. We hope the following information will help you. If you want to ask any query or just want to say hello, you can always contact us. We hope you enjoy it! "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1023
+#: acmethemes/at-theme-info/class-at-theme-info.php:58
 msgid "Theme Details"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1027
+#: acmethemes/at-theme-info/class-at-theme-info.php:62
 msgid "View Demo"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1031
-#: acmethemes/at-theme-info/class-at-theme-info.php:1217
+#: acmethemes/at-theme-info/class-at-theme-info.php:66
+#: acmethemes/at-theme-info/class-at-theme-info.php:246
 msgid "View Pro Version"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1035
+#: acmethemes/at-theme-info/class-at-theme-info.php:70
 msgid "Rate This Theme"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1055
+#: acmethemes/at-theme-info/class-at-theme-info.php:90
 msgid "Getting Started"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1056
+#: acmethemes/at-theme-info/class-at-theme-info.php:91
 msgid "Recommended Actions"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1057
+#: acmethemes/at-theme-info/class-at-theme-info.php:92
 msgid "Useful Plugins"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1058
+#: acmethemes/at-theme-info/class-at-theme-info.php:93
 msgid "Support"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1059
+#: acmethemes/at-theme-info/class-at-theme-info.php:94
 msgid "Changelog"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1060
+#: acmethemes/at-theme-info/class-at-theme-info.php:95
 msgid "FAQ"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1061
+#: acmethemes/at-theme-info/class-at-theme-info.php:96
 msgid "Free VS PRO"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1067
+#: acmethemes/at-theme-info/class-at-theme-info.php:102
 msgid "Step 1 : Read full documentation"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1068
-#: acmethemes/at-theme-info/class-at-theme-info.php:1207
-msgid ""
-"Please check our full documentation for detailed information on how to Setup "
-"and Use Construction Field."
+#: acmethemes/at-theme-info/class-at-theme-info.php:103
+#: acmethemes/at-theme-info/class-at-theme-info.php:236
+msgid "Please check our full documentation for detailed information on how to Setup and Use Construction Field."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1069
-#: acmethemes/at-theme-info/class-at-theme-info.php:1205
+#: acmethemes/at-theme-info/class-at-theme-info.php:104
+#: acmethemes/at-theme-info/class-at-theme-info.php:234
 msgid "Documentation"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1076
+#: acmethemes/at-theme-info/class-at-theme-info.php:111
 msgid "Step 2 : Go to Customizer"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1077
-msgid ""
-"All Setting, Theme Options, Widgets and Menus are available via Customize "
-"screen. Have a quick look or start customization!"
+#: acmethemes/at-theme-info/class-at-theme-info.php:112
+msgid "All Setting, Theme Options, Widgets and Menus are available via Customize screen. Have a quick look or start customization!"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1078
+#: acmethemes/at-theme-info/class-at-theme-info.php:113
 msgid "Go to Customizer"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1085
+#: acmethemes/at-theme-info/class-at-theme-info.php:120
 msgid "Step 3: Setting Static Front Page"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1086
-msgid ""
-"Select A static page than Front page and Posts page to enable Slider and "
-"Home Main Content Area"
+#: acmethemes/at-theme-info/class-at-theme-info.php:121
+msgid "Select A static page than Front page and Posts page to enable Slider and Home Main Content Area"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1087
+#: acmethemes/at-theme-info/class-at-theme-info.php:122
 msgid "Static Front Page"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1094
+#: acmethemes/at-theme-info/class-at-theme-info.php:129
 msgid "Step 4 : Setting Featured Section "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1095
-msgid ""
-"Advanced Feature Section is available in this theme. You can add Feature "
-"Main Slider and Feature Right Vertical Slider, also you can add widgets "
-"before feature. Please do the Step 3 before this."
+#: acmethemes/at-theme-info/class-at-theme-info.php:130
+msgid "Advanced Feature Section is available in this theme. You can add Feature Main Slider and Feature Right Vertical Slider, also you can add widgets before feature. Please do the Step 3 before this."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1096
+#: acmethemes/at-theme-info/class-at-theme-info.php:131
 msgid "Featured Section"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1103
+#: acmethemes/at-theme-info/class-at-theme-info.php:138
 msgid "Step 5 : Setting Home Main Content Area "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1104
-msgid ""
-"You can Add, Edit, Remove or Drag, Drop, Reorder widgets on Home Main "
-"Content Area. Please do the Step 3 before this."
+#: acmethemes/at-theme-info/class-at-theme-info.php:139
+msgid "You can Add, Edit, Remove or Drag, Drop, Reorder widgets on Home Main Content Area. Please do the Step 3 before this."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1105
+#: acmethemes/at-theme-info/class-at-theme-info.php:140
 #: acmethemes/sidebar-widget/sidebar.php:122
 msgid "Home Main Content Area"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1112
+#: acmethemes/at-theme-info/class-at-theme-info.php:147
 msgid "Do not forget to install WooCommerce"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1113
-msgid ""
-"If you are using this theme for your online store or shop, do not forget to "
-"install WooCommerce Plugin"
+#: acmethemes/at-theme-info/class-at-theme-info.php:148
+msgid "If you are using this theme for your online store or shop, do not forget to install WooCommerce Plugin"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1114
+#: acmethemes/at-theme-info/class-at-theme-info.php:149
 msgid "Install Recommended Plugins"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1125
-msgid "Install Demo Setup"
+#: acmethemes/at-theme-info/class-at-theme-info.php:160
+msgid "Install Gutentor"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1126
-#: acmethemes/at-theme-info/class-at-theme-info.php:1157
+#: acmethemes/at-theme-info/class-at-theme-info.php:161
 #, php-format
-msgid ""
-"For the demo content installation, install the Acme Demo Setup plugin and "
-"other Recommended plugins, download demo content from %1$s here %2$s. Then "
-"go to \"Acme Demo Setup\" and import demo. "
+msgid "Customize everything within default WordPress editor %1$s Gutentor : WordPress Page Builder with Unlimited Possibilities to Design %2$s."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1132
+#: acmethemes/at-theme-info/class-at-theme-info.php:167
 msgid "Setting Static Front Page"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1133
+#: acmethemes/at-theme-info/class-at-theme-info.php:168
 #, php-format
-msgid ""
-"Select A static page than Front page and Posts page to enable Slider and "
-"Home Main Content Area %1$s Static Front Page %2$s "
+msgid "Select A static page than Front page and Posts page to enable Slider and Home Main Content Area %1$s Static Front Page %2$s "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1155
+#: acmethemes/at-theme-info/class-at-theme-info.php:184
 msgid "How to Setup Site like Demo"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1158
+#: acmethemes/at-theme-info/class-at-theme-info.php:186
+#, php-format
+msgid "For the demo content installation, install the Acme Demo Setup plugin and other Recommended plugins, download demo content from %1$s here %2$s. Then go to \"Acme Demo Setup\" and import demo. "
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:187
 msgid "Download Demo Content"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1164
+#: acmethemes/at-theme-info/class-at-theme-info.php:193
 msgid "Feature Section is now Showing"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1166
-msgid ""
-"Please go to Setting => Reading,then Select A static page than Front page "
-"and Posts page to enable Slider and Home Main Content Area"
+#: acmethemes/at-theme-info/class-at-theme-info.php:195
+msgid "Please go to Setting => Reading,then Select A static page than Front page and Posts page to enable Slider and Home Main Content Area"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1167
+#: acmethemes/at-theme-info/class-at-theme-info.php:196
 msgid "Set Static Page"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1174
+#: acmethemes/at-theme-info/class-at-theme-info.php:203
 msgid "Hide Construction Field by Acme Themes from footer ? "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1176
+#: acmethemes/at-theme-info/class-at-theme-info.php:205
 msgid "Please visit the blog post to know more about it."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1177
+#: acmethemes/at-theme-info/class-at-theme-info.php:206
 msgid "Hide credit text on Footer"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1184
+#: acmethemes/at-theme-info/class-at-theme-info.php:213
 msgid "Recent Updates of your Site ? "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1186
+#: acmethemes/at-theme-info/class-at-theme-info.php:215
 msgid "Where i can get the recent updates of theme related updates ? "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1187
+#: acmethemes/at-theme-info/class-at-theme-info.php:216
 msgid "Visit our site blog page"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1196
-#: acmethemes/at-theme-info/class-at-theme-info.php:1199
+#: acmethemes/at-theme-info/class-at-theme-info.php:225
+#: acmethemes/at-theme-info/class-at-theme-info.php:228
 msgid "Contact Support"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1198
-msgid ""
-"Got theme support question or found bug? Best place to ask your query is our "
-"dedicated Support forum."
+#: acmethemes/at-theme-info/class-at-theme-info.php:227
+msgid "Got theme support question or found bug? Best place to ask your query is our dedicated Support forum."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1208
+#: acmethemes/at-theme-info/class-at-theme-info.php:237
 msgid "Read full documentation"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1214
+#: acmethemes/at-theme-info/class-at-theme-info.php:243
 msgid "Need more features?"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1216
+#: acmethemes/at-theme-info/class-at-theme-info.php:245
 msgid "Upgrade to PRO version for more exciting features and Priority Support."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1223
+#: acmethemes/at-theme-info/class-at-theme-info.php:252
 msgid "Got sales related question?"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1225
+#: acmethemes/at-theme-info/class-at-theme-info.php:254
 msgid "Have any query before purchase, you are more than welcome to ask."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1226
+#: acmethemes/at-theme-info/class-at-theme-info.php:255
 msgid "Pre-sale Question?"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1232
-#: acmethemes/at-theme-info/class-at-theme-info.php:1235
+#: acmethemes/at-theme-info/class-at-theme-info.php:261
+#: acmethemes/at-theme-info/class-at-theme-info.php:264
 msgid "Customization Request"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1234
+#: acmethemes/at-theme-info/class-at-theme-info.php:263
 msgid "Needed any customization for the theme, you can request from here."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1245
+#: acmethemes/at-theme-info/class-at-theme-info.php:274
 msgid "Custom Widgets"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1246
+#: acmethemes/at-theme-info/class-at-theme-info.php:275
 msgid "All added custom widgets are ready for page builder plugin"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1247
+#: acmethemes/at-theme-info/class-at-theme-info.php:276
 msgid "10+ Available"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1248
+#: acmethemes/at-theme-info/class-at-theme-info.php:277
 msgid "15+ Available"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1251
+#: acmethemes/at-theme-info/class-at-theme-info.php:280
 msgid "Widget Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1252
+#: acmethemes/at-theme-info/class-at-theme-info.php:281
 msgid "Every widgets have multiple options to customize section"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1253
-#: acmethemes/at-theme-info/class-at-theme-info.php:1265
-#: acmethemes/at-theme-info/class-at-theme-info.php:1271
-#: acmethemes/at-theme-info/class-at-theme-info.php:1283
-#: acmethemes/at-theme-info/class-at-theme-info.php:1295
-#: acmethemes/at-theme-info/class-at-theme-info.php:1307
-#: acmethemes/at-theme-info/class-at-theme-info.php:1313
-#: acmethemes/at-theme-info/class-at-theme-info.php:1397
+#: acmethemes/at-theme-info/class-at-theme-info.php:282
+#: acmethemes/at-theme-info/class-at-theme-info.php:294
+#: acmethemes/at-theme-info/class-at-theme-info.php:300
+#: acmethemes/at-theme-info/class-at-theme-info.php:312
+#: acmethemes/at-theme-info/class-at-theme-info.php:324
+#: acmethemes/at-theme-info/class-at-theme-info.php:336
+#: acmethemes/at-theme-info/class-at-theme-info.php:342
+#: acmethemes/at-theme-info/class-at-theme-info.php:426
 msgid "Limited"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1254
+#: acmethemes/at-theme-info/class-at-theme-info.php:283
 msgid "Multiple Advanced Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1257
+#: acmethemes/at-theme-info/class-at-theme-info.php:286
 msgid "Google Fonts"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1258
+#: acmethemes/at-theme-info/class-at-theme-info.php:287
 msgid "Google fonts options for changing the overall site fonts "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1260
+#: acmethemes/at-theme-info/class-at-theme-info.php:289
 msgid "Unlimited +"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1263
+#: acmethemes/at-theme-info/class-at-theme-info.php:292
 msgid "Color Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1264
+#: acmethemes/at-theme-info/class-at-theme-info.php:293
 msgid "Color options for changing overall site colors, Contat us"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1266
+#: acmethemes/at-theme-info/class-at-theme-info.php:295
 msgid "Almost All parts"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1269
+#: acmethemes/at-theme-info/class-at-theme-info.php:298
 #: acmethemes/customizer/header-options/header-panel.php:6
 msgid "Header Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1270
+#: acmethemes/at-theme-info/class-at-theme-info.php:299
 msgid "Customize the header section as your need."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1272
-#: acmethemes/at-theme-info/class-at-theme-info.php:1284
-#: acmethemes/at-theme-info/class-at-theme-info.php:1296
-#: acmethemes/at-theme-info/class-at-theme-info.php:1314
-#: acmethemes/at-theme-info/class-at-theme-info.php:1344
-#: acmethemes/at-theme-info/class-at-theme-info.php:1350
-#: acmethemes/at-theme-info/class-at-theme-info.php:1356
-#: acmethemes/at-theme-info/class-at-theme-info.php:1374
-#: acmethemes/at-theme-info/class-at-theme-info.php:1398
+#: acmethemes/at-theme-info/class-at-theme-info.php:301
+#: acmethemes/at-theme-info/class-at-theme-info.php:313
+#: acmethemes/at-theme-info/class-at-theme-info.php:325
+#: acmethemes/at-theme-info/class-at-theme-info.php:343
+#: acmethemes/at-theme-info/class-at-theme-info.php:373
+#: acmethemes/at-theme-info/class-at-theme-info.php:379
+#: acmethemes/at-theme-info/class-at-theme-info.php:385
+#: acmethemes/at-theme-info/class-at-theme-info.php:403
+#: acmethemes/at-theme-info/class-at-theme-info.php:427
 msgid "Multiple Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1275
+#: acmethemes/at-theme-info/class-at-theme-info.php:304
 msgid "Breaking News Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1276
+#: acmethemes/at-theme-info/class-at-theme-info.php:305
 msgid "Manage your breaking news section on header"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1281
+#: acmethemes/at-theme-info/class-at-theme-info.php:310
 #: acmethemes/customizer/header-options/menu-options.php:37
 msgid "Menu Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1282
-msgid ""
-"Lots of menu options are available to manage the menu section. Appearance > "
-"Menus"
+#: acmethemes/at-theme-info/class-at-theme-info.php:311
+msgid "Lots of menu options are available to manage the menu section. Appearance > Menus"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1287
+#: acmethemes/at-theme-info/class-at-theme-info.php:316
 msgid "Featured Selection"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1288
+#: acmethemes/at-theme-info/class-at-theme-info.php:317
 msgid "This is slider section. Check every options there"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1289
+#: acmethemes/at-theme-info/class-at-theme-info.php:318
 msgid "Unlimited Page"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1290
+#: acmethemes/at-theme-info/class-at-theme-info.php:319
 msgid "Unlimited Page, Custom or Third Party"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1293
+#: acmethemes/at-theme-info/class-at-theme-info.php:322
 #: acmethemes/customizer/feature-section/feature-panel.php:6
 msgid "Featured Section Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1294
+#: acmethemes/at-theme-info/class-at-theme-info.php:323
 msgid "Options to manage the sliders"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1299
+#: acmethemes/at-theme-info/class-at-theme-info.php:328
 msgid "Sticky Sidebar"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1300
+#: acmethemes/at-theme-info/class-at-theme-info.php:329
 msgid "Enable/Disable sticky sidebars"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1305
+#: acmethemes/at-theme-info/class-at-theme-info.php:334
 msgid "Blog/Archive Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1306
-msgid ""
-"Various Options are available for the blog and archive page management. "
-"Check on Appearance > Customize > Layout/Design Options."
+#: acmethemes/at-theme-info/class-at-theme-info.php:335
+msgid "Various Options are available for the blog and archive page management. Check on Appearance > Customize > Layout/Design Options."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1308
+#: acmethemes/at-theme-info/class-at-theme-info.php:337
 msgid "Manage Almost Every Entity"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1311
+#: acmethemes/at-theme-info/class-at-theme-info.php:340
 #: acmethemes/customizer/footer-options/footer-panel.php:6
 msgid "Footer Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1312
+#: acmethemes/at-theme-info/class-at-theme-info.php:341
 msgid "Manage the every entity related to footer section."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1317
+#: acmethemes/at-theme-info/class-at-theme-info.php:346
 #: acmethemes/customizer/options/social-options.php:6
 msgid "Social Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1318
-msgid ""
-"Options to manage the social icons like facebook, instagram, linkedin etc."
+#: acmethemes/at-theme-info/class-at-theme-info.php:347
+msgid "Options to manage the social icons like facebook, instagram, linkedin etc."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1323
+#: acmethemes/at-theme-info/class-at-theme-info.php:352
 msgid "Theme Credit Link"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1324
+#: acmethemes/at-theme-info/class-at-theme-info.php:353
 msgid "Options to disable to Powered by text on footer."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1325
+#: acmethemes/at-theme-info/class-at-theme-info.php:354
 msgid "No Options To Disable"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1326
-#: acmethemes/at-theme-info/class-at-theme-info.php:1332
+#: acmethemes/at-theme-info/class-at-theme-info.php:355
+#: acmethemes/at-theme-info/class-at-theme-info.php:361
 msgid "Enable/Disable"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1329
+#: acmethemes/at-theme-info/class-at-theme-info.php:358
 msgid "Own Credit Link"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1330
+#: acmethemes/at-theme-info/class-at-theme-info.php:359
 msgid "Write your own credit text."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1335
+#: acmethemes/at-theme-info/class-at-theme-info.php:364
 msgid "Social Icons"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1336
+#: acmethemes/at-theme-info/class-at-theme-info.php:365
 msgid "Enter the URL for social icons. "
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1337
-#: acmethemes/at-theme-info/class-at-theme-info.php:1338
+#: acmethemes/at-theme-info/class-at-theme-info.php:366
+#: acmethemes/at-theme-info/class-at-theme-info.php:367
 msgid "Unlimited with multiple Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1341
+#: acmethemes/at-theme-info/class-at-theme-info.php:370
 msgid "Intro Loader Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1342
+#: acmethemes/at-theme-info/class-at-theme-info.php:371
 msgid "It will load before the site loaded completely."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1347
+#: acmethemes/at-theme-info/class-at-theme-info.php:376
 msgid "Related Post Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1348
+#: acmethemes/at-theme-info/class-at-theme-info.php:377
 msgid "Related post will appear on single post of each blog article"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1353
+#: acmethemes/at-theme-info/class-at-theme-info.php:382
 msgid "Author Info Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1354
+#: acmethemes/at-theme-info/class-at-theme-info.php:383
 msgid "This will appear on single post."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1359
+#: acmethemes/at-theme-info/class-at-theme-info.php:388
 msgid "Feature Image Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1360
+#: acmethemes/at-theme-info/class-at-theme-info.php:389
 msgid "Featured image options for the single page and post."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1362
+#: acmethemes/at-theme-info/class-at-theme-info.php:391
 msgid "Manage As Your Need"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1365
+#: acmethemes/at-theme-info/class-at-theme-info.php:394
 msgid "Navigation Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1366
-msgid ""
-"Post Navigation means, previous post and next post. Check on single post."
+#: acmethemes/at-theme-info/class-at-theme-info.php:395
+msgid "Post Navigation means, previous post and next post. Check on single post."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1367
-#: acmethemes/at-theme-info/class-at-theme-info.php:1415
-#: acmethemes/at-theme-info/class-at-theme-info.php:1427
+#: acmethemes/at-theme-info/class-at-theme-info.php:396
+#: acmethemes/at-theme-info/class-at-theme-info.php:444
+#: acmethemes/at-theme-info/class-at-theme-info.php:456
 #: acmethemes/sidebar-widget/sidebar.php:30
 msgid "Default"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1368
-#: acmethemes/at-theme-info/class-at-theme-info.php:1386
+#: acmethemes/at-theme-info/class-at-theme-info.php:397
+#: acmethemes/at-theme-info/class-at-theme-info.php:415
 msgid "Advanced"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1371
+#: acmethemes/at-theme-info/class-at-theme-info.php:400
 msgid "Post Comment Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1372
+#: acmethemes/at-theme-info/class-at-theme-info.php:401
 msgid "Manage the comment section on single post."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1377
+#: acmethemes/at-theme-info/class-at-theme-info.php:406
 msgid "Show/Hide Comment"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1378
+#: acmethemes/at-theme-info/class-at-theme-info.php:407
 msgid "Options to show hide comments on page and post."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1383
+#: acmethemes/at-theme-info/class-at-theme-info.php:412
 msgid "Breadcrumb"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1384
+#: acmethemes/at-theme-info/class-at-theme-info.php:413
 msgid "Advanced options for manage the Breadcrumb."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1389
+#: acmethemes/at-theme-info/class-at-theme-info.php:418
 msgid "Video Post On Featured"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1390
+#: acmethemes/at-theme-info/class-at-theme-info.php:419
 msgid "Create your video post easily from Youtube and Vimeo video."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1392
+#: acmethemes/at-theme-info/class-at-theme-info.php:421
 msgid "Add Own Video On Featured"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1395
+#: acmethemes/at-theme-info/class-at-theme-info.php:424
 msgid "Single Post Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1396
+#: acmethemes/at-theme-info/class-at-theme-info.php:425
 msgid "Manage every entity of single post."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1401
+#: acmethemes/at-theme-info/class-at-theme-info.php:430
 msgid "Featured Image Size"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1402
+#: acmethemes/at-theme-info/class-at-theme-info.php:431
 msgid "Select the size of the featured image on the single post."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1407
+#: acmethemes/at-theme-info/class-at-theme-info.php:436
 msgid "Sidebars"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1408
-msgid ""
-"Global and Individual sidebars are available. You can easily orveride it "
-"from single page/post."
+#: acmethemes/at-theme-info/class-at-theme-info.php:437
+msgid "Global and Individual sidebars are available. You can easily orveride it from single page/post."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1409
-#: acmethemes/at-theme-info/class-at-theme-info.php:1410
+#: acmethemes/at-theme-info/class-at-theme-info.php:438
+#: acmethemes/at-theme-info/class-at-theme-info.php:439
 msgid "Advanced Global And Individuals"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1413
+#: acmethemes/at-theme-info/class-at-theme-info.php:442
 msgid "Menu and Logo Location"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1414
+#: acmethemes/at-theme-info/class-at-theme-info.php:443
 msgid "Position of menu and logo section on header."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1416
+#: acmethemes/at-theme-info/class-at-theme-info.php:445
 msgid "3 Position Left, Right and Middle"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1419
+#: acmethemes/at-theme-info/class-at-theme-info.php:448
 msgid "Popup Widget on Header"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1420
+#: acmethemes/at-theme-info/class-at-theme-info.php:449
 msgid "Options to popup widget via Popup Widget Area on Header Top Section."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1421
-#: acmethemes/at-theme-info/class-at-theme-info.php:1422
+#: acmethemes/at-theme-info/class-at-theme-info.php:450
+#: acmethemes/at-theme-info/class-at-theme-info.php:451
 msgid "Add your required Widget"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1425
+#: acmethemes/at-theme-info/class-at-theme-info.php:454
 msgid "Multiple Header Type"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1426
+#: acmethemes/at-theme-info/class-at-theme-info.php:455
 msgid "Different Types of Header."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1428
+#: acmethemes/at-theme-info/class-at-theme-info.php:457
 msgid "3 Options"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1431
+#: acmethemes/at-theme-info/class-at-theme-info.php:460
 msgid "WooCommerce"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1432
+#: acmethemes/at-theme-info/class-at-theme-info.php:461
 msgid "Create WooCommerce shop easily with the help of WooCommerce plugin."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1437
+#: acmethemes/at-theme-info/class-at-theme-info.php:466
 msgid "Translation"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1438
+#: acmethemes/at-theme-info/class-at-theme-info.php:467
 msgid "Both theme are translation ready."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1443
+#: acmethemes/at-theme-info/class-at-theme-info.php:472
 msgid "SEO"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1444
+#: acmethemes/at-theme-info/class-at-theme-info.php:473
 msgid "Developed with high skilled SEO tools."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1449
+#: acmethemes/at-theme-info/class-at-theme-info.php:478
 msgid "Widget Area On Footer"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1450
+#: acmethemes/at-theme-info/class-at-theme-info.php:479
 msgid "Change the number of footers on footer area as you need."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1455
+#: acmethemes/at-theme-info/class-at-theme-info.php:484
 msgid "Support Forum"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1456
-msgid ""
-"Highly dedicated support team are assigned for your help. Try this today."
+#: acmethemes/at-theme-info/class-at-theme-info.php:485
+msgid "Highly dedicated support team are assigned for your help. Try this today."
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1457
+#: acmethemes/at-theme-info/class-at-theme-info.php:486
 msgid "Second"
 msgstr ""
 
-#: acmethemes/at-theme-info/class-at-theme-info.php:1458
+#: acmethemes/at-theme-info/class-at-theme-info.php:487
 msgid "Dedicated With High Priority"
 msgstr ""
 
-#: acmethemes/core.php:56
+#: acmethemes/at-theme-info/class-at-theme-info.php:622
+#: acmethemes/at-theme-info/class-at-theme-info.php:623
+msgid "Info"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:954
+#: acmethemes/at-theme-info/class-at-theme-info.php:1086
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:959
+#: acmethemes/at-theme-info/class-at-theme-info.php:1091
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:965
+#: acmethemes/at-theme-info/class-at-theme-info.php:1097
+msgid "Deactivate"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:982
+msgid "Hooray! There are no recommended actions for you right now."
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:983
+msgid "Show All Recommended Actions"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:1072
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:299
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:425
+msgid "|"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:1077
+msgid "Active:"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:1153
+msgid "Download"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:1156
+msgid "Live Preview"
+msgstr ""
+
+#: acmethemes/at-theme-info/class-at-theme-info.php:1299
+msgid "Construction Field Pro"
+msgstr ""
+
+#: acmethemes/core.php:60
 msgid "Top Menu ( Support First Level Only )"
 msgstr ""
 
-#: acmethemes/core.php:57
+#: acmethemes/core.php:61
 msgid "Primary Menu"
 msgstr ""
 
-#: acmethemes/core.php:58
+#: acmethemes/core.php:62
 msgid "One Page Menu for Front Page"
 msgstr ""
 
-#: acmethemes/core.php:59
+#: acmethemes/core.php:63
 msgid "Footer Menu ( Support First Level Only )"
 msgstr ""
 
@@ -806,7 +838,9 @@ msgstr ""
 msgid "Default Header Image"
 msgstr ""
 
-#: acmethemes/core/template-tags.php:16 acmethemes/core/template-tags.php:63
+#. translators: used between list items, there is a space after the comma
+#: acmethemes/core/template-tags.php:16
+#: acmethemes/core/template-tags.php:63
 msgid ", "
 msgstr ""
 
@@ -822,7 +856,9 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
-#: acmethemes/core/template-tags.php:79 template-parts/content-page.php:37
+#. translators: %s: Name of current post
+#: acmethemes/core/template-tags.php:79
+#: template-parts/content-page.php:37
 #, php-format
 msgid "Edit %s"
 msgstr ""
@@ -980,65 +1016,6 @@ msgstr ""
 msgid "full (original)"
 msgstr ""
 
-#: acmethemes/customizer/customizer-core.php:283
-msgid "News :"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:289
-#: acmethemes/customizer/customizer-core.php:356
-#: acmethemes/functions/primary-menu.php:22
-msgid "Request a Quote"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:306
-msgid "Send Us a Mail"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:307
-msgid "domain@example.com "
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:309
-msgid "Our Location"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:310
-msgid "Elmonte California"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:312
-msgid "Call Us"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:313
-msgid "01-23456789-10"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:315
-msgid "Office Hours"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:316
-msgid "8 hours per day"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:319
-msgid "&copy; Custom Copyright"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:333
-msgid "Read More"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:352
-msgid "Blog"
-msgstr ""
-
-#: acmethemes/customizer/customizer-core.php:358
-#: acmethemes/customizer/options/search.php:6
-msgid "Search"
-msgstr ""
-
 #: acmethemes/customizer/customizer-pro/class-customize.php:75
 msgid "Premium Version"
 msgstr ""
@@ -1048,61 +1025,61 @@ msgid "Upgrade To Pro"
 msgstr ""
 
 #: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:95
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:252
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:372
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:253
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:374
 #: acmethemes/metabox/meta-icons.php:46
 msgid "Add Icon"
 msgstr ""
 
 #: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:95
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:372
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:374
 #: acmethemes/metabox/meta-icons.php:46
 msgid "Edit Icon"
 msgstr ""
 
 #: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:99
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:256
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:376
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:257
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:378
 #: acmethemes/metabox/meta-icons.php:50
 msgid "Search Icon"
 msgstr ""
 
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:278
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:402
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:279
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:404
 #: acmethemes/sidebar-widget/acme-feature.php:76
 #: acmethemes/sidebar-widget/acme-service.php:66
 #: acmethemes/sidebar-widget/acme-testimonial.php:61
 msgid "Image preview"
 msgstr ""
 
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:281
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:405
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:282
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:407
 #: acmethemes/sidebar-widget/acme-feature.php:79
 #: acmethemes/sidebar-widget/acme-service.php:69
 #: acmethemes/sidebar-widget/acme-testimonial.php:64
 msgid "Upload Image"
 msgstr ""
 
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:281
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:405
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:282
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:407
 msgid "Select Image"
 msgstr ""
 
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:282
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:406
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:283
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:408
 #: acmethemes/sidebar-widget/acme-feature.php:80
 #: acmethemes/sidebar-widget/acme-service.php:70
 #: acmethemes/sidebar-widget/acme-testimonial.php:65
 msgid "Remove Image"
 msgstr ""
 
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:296
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:421
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:297
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:423
 msgid "Delete"
 msgstr ""
 
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:300
-#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:425
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:301
+#: acmethemes/customizer/customizer-repeater/customizer-control-repeater.php:427
 #: acmethemes/sidebar-widget/acme-about.php:93
 #: acmethemes/sidebar-widget/acme-about.php:141
 #: acmethemes/sidebar-widget/acme-accordion.php:109
@@ -1120,6 +1097,14 @@ msgstr ""
 
 #: acmethemes/customizer/customizer.php:85
 msgid "Home Main Content Area "
+msgstr ""
+
+#: acmethemes/customizer/customizer.php:92
+msgid "Basic Color"
+msgstr ""
+
+#: acmethemes/customizer/customizer.php:101
+msgid "Applied to header image of inner pages."
 msgstr ""
 
 #: acmethemes/customizer/design-options/animation.php:6
@@ -1168,32 +1153,26 @@ msgid "Exclude Categories In Blog Page"
 msgstr ""
 
 #: acmethemes/customizer/design-options/blog-layout.php:86
-msgid ""
-"Enter categories ids in comma separated eg: 3,5,7,95. For including all "
-"categories left blank"
+msgid "Enter categories ids in comma separated eg: 3,5,7,95. For including all categories left blank"
 msgstr ""
 
-#: acmethemes/customizer/design-options/colors-options.php:4
-msgid "Basic Color"
-msgstr ""
-
-#: acmethemes/customizer/design-options/colors-options.php:19
+#: acmethemes/customizer/design-options/colors-options.php:14
 msgid "Primary Color"
 msgstr ""
 
-#: acmethemes/customizer/design-options/colors-options.php:38
+#: acmethemes/customizer/design-options/colors-options.php:33
 msgid "Header Top Background Color"
 msgstr ""
 
-#: acmethemes/customizer/design-options/colors-options.php:39
+#: acmethemes/customizer/design-options/colors-options.php:34
 msgid "Also used as secondary color"
 msgstr ""
 
-#: acmethemes/customizer/design-options/colors-options.php:59
+#: acmethemes/customizer/design-options/colors-options.php:54
 msgid "Footer Background Color"
 msgstr ""
 
-#: acmethemes/customizer/design-options/colors-options.php:79
+#: acmethemes/customizer/design-options/colors-options.php:74
 msgid "Footer Bottom Background Color"
 msgstr ""
 
@@ -1210,9 +1189,7 @@ msgid "Hide Front Page Content"
 msgstr ""
 
 #: acmethemes/customizer/design-options/front-page-content.php:30
-msgid ""
-"You may want to hide front page content and want to show only Feature "
-"section and Home Widgets. Check this to hide front page content."
+msgid "You may want to hide front page content and want to show only Feature section and Home Widgets. Check this to hide front page content."
 msgstr ""
 
 #: acmethemes/customizer/design-options/front-page-content.php:43
@@ -1220,9 +1197,7 @@ msgid "Hide Front Page Header"
 msgstr ""
 
 #: acmethemes/customizer/design-options/front-page-content.php:44
-msgid ""
-"You may want to hide front page header and want to show only Feature section "
-"and Home Widgets. Check this to hide front page Header."
+msgid "You may want to hide front page header and want to show only Feature section and Home Widgets. Check this to hide front page Header."
 msgstr ""
 
 #: acmethemes/customizer/design-options/front-page-sidebar-layout.php:6
@@ -1246,11 +1221,7 @@ msgstr ""
 
 #: acmethemes/customizer/feature-section/feature-enable.php:19
 #, php-format
-msgid ""
-"Feature section will display on front/home page. Feature Section includes "
-"Feature Slider and Feature Column.%1$s Note : Please go to %2$s \"Static "
-"Front Page\"%3$s setting, Select \"A static page\" then \"Front page\" and "
-"\"Posts page\" to enable it"
+msgid "Feature section will display on front/home page. Feature Section includes Feature Slider and Feature Column.%1$s Note : Please go to %2$s \"Static Front Page\"%3$s setting, Select \"A static page\" then \"Front page\" and \"Posts page\" to enable it"
 msgstr ""
 
 #: acmethemes/customizer/feature-section/feature-info.php:6
@@ -1280,7 +1251,8 @@ msgstr ""
 #: acmethemes/customizer/feature-section/feature-info.php:143
 #: acmethemes/customizer/feature-section/feature-info.php:203
 #: acmethemes/customizer/feature-section/feature-info.php:263
-#: acmethemes/functions.php:198 acmethemes/sidebar-widget/acme-about.php:51
+#: acmethemes/functions.php:204
+#: acmethemes/sidebar-widget/acme-about.php:51
 #: acmethemes/sidebar-widget/acme-accordion.php:51
 #: acmethemes/sidebar-widget/acme-col-posts.php:75
 #: acmethemes/sidebar-widget/acme-contact.php:51
@@ -1417,21 +1389,15 @@ msgstr ""
 msgid "Customize your awesome site header "
 msgstr ""
 
-#: acmethemes/customizer/header-options/header-panel.php:32
-msgid "Applied to header image of inner pages."
-msgstr ""
-
-#: acmethemes/customizer/header-options/header-panel.php:45
+#: acmethemes/customizer/header-options/header-panel.php:41
 msgid "Inner Page Header Section Height"
 msgstr ""
 
-#: acmethemes/customizer/header-options/header-panel.php:46
-msgid ""
-"Control the height of Header section. The minimum height is 100px and "
-"maximium height is 500px"
+#: acmethemes/customizer/header-options/header-panel.php:42
+msgid "Control the height of Header section. The minimum height is 100px and maximium height is 500px"
 msgstr ""
 
-#: acmethemes/customizer/header-options/header-panel.php:67
+#: acmethemes/customizer/header-options/header-panel.php:63
 msgid "Header Image Display"
 msgstr ""
 
@@ -1449,9 +1415,7 @@ msgstr ""
 
 #: acmethemes/customizer/header-options/header-top.php:61
 #, php-format
-msgid ""
-"Add/Edit Menu Items from %1$s here%2$s and select Menu Location : Top Menu "
-"( Support First Level Only ) "
+msgid "Add/Edit Menu Items from %1$s here%2$s and select Menu Location : Top Menu ( Support First Level Only ) "
 msgstr ""
 
 #: acmethemes/customizer/header-options/header-top.php:64
@@ -1501,19 +1465,15 @@ msgstr ""
 
 #: acmethemes/customizer/header-options/menu-options.php:124
 #, php-format
-msgid "Add Popup Widget from %1$s here%2$s "
+msgid "%1$sAdd Popup Widget from here%2$s "
 msgstr ""
 
-#: acmethemes/customizer/header-options/menu-options.php:146
+#: acmethemes/customizer/header-options/menu-options.php:147
 msgid "Button Link"
 msgstr ""
 
 #: acmethemes/customizer/header-options/popup-widgets.php:9
-msgid "Main Title"
-msgstr ""
-
-#: acmethemes/customizer/header-options/popup-widgets.php:18
-msgid "Popup Widgets"
+msgid "Popup Main Title"
 msgstr ""
 
 #: acmethemes/customizer/options/breadcrumb.php:6
@@ -1530,6 +1490,11 @@ msgstr ""
 
 #: acmethemes/customizer/options/options-panel.php:7
 msgid "Customize your awesome site with theme options "
+msgstr ""
+
+#: acmethemes/customizer/options/search.php:6
+#: functions.php:114
+msgid "Search"
 msgstr ""
 
 #: acmethemes/customizer/options/search.php:17
@@ -1609,16 +1574,17 @@ msgstr ""
 msgid "WooCommerce Options"
 msgstr ""
 
-#: acmethemes/functions.php:48
+#: acmethemes/functions.php:47
 #, php-format
 msgid "<cite class=\"fn\">%s</cite>"
 msgstr ""
 
-#: acmethemes/functions.php:52
+#: acmethemes/functions.php:51
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: acmethemes/functions.php:60
+#. translators: 1: date, 2: time
+#: acmethemes/functions.php:59
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
@@ -1627,64 +1593,70 @@ msgstr ""
 msgid "(Edit)"
 msgstr ""
 
-#: acmethemes/functions.php:156
+#: acmethemes/functions.php:164
 msgid "Normal Column"
 msgstr ""
 
-#: acmethemes/functions.php:157
+#: acmethemes/functions.php:165
 msgid "Carousel Column"
 msgstr ""
 
-#: acmethemes/functions.php:175
+#: acmethemes/functions.php:182
 msgid "All posts"
 msgstr ""
 
-#: acmethemes/functions.php:176
+#: acmethemes/functions.php:183
 msgid "Categories"
 msgstr ""
 
-#: acmethemes/functions.php:177
+#: acmethemes/functions.php:184
 msgid "Tags"
 msgstr ""
 
-#: acmethemes/functions.php:195
+#: acmethemes/functions.php:201
 msgid "None"
 msgstr ""
 
-#: acmethemes/functions.php:196
+#: acmethemes/functions.php:202
 msgid "ID"
 msgstr ""
 
-#: acmethemes/functions.php:197
+#: acmethemes/functions.php:203
 msgid "Author"
 msgstr ""
 
-#: acmethemes/functions.php:199
+#: acmethemes/functions.php:205
 msgid "Date"
 msgstr ""
 
-#: acmethemes/functions.php:200
+#: acmethemes/functions.php:206
 msgid "Modified Date"
 msgstr ""
 
-#: acmethemes/functions.php:201
+#: acmethemes/functions.php:207
 msgid "Random"
 msgstr ""
 
-#: acmethemes/functions.php:202
+#: acmethemes/functions.php:208
 msgid "Comment Count"
 msgstr ""
 
-#: acmethemes/functions.php:203
+#: acmethemes/functions.php:209
 msgid "Menu Order"
 msgstr ""
 
-#: acmethemes/functions.php:221
+#: acmethemes/functions.php:226
 msgid "ASC"
 msgstr ""
 
-#: acmethemes/functions.php:222
+#: acmethemes/functions.php:227
 msgid "DESC"
+msgstr ""
+
+#: acmethemes/functions/primary-menu.php:21
+#: functions.php:45
+#: functions.php:112
+msgid "Request a Quote"
 msgstr ""
 
 #: acmethemes/hooks/comment-forms.php:17
@@ -1712,16 +1684,16 @@ msgstr ""
 msgid "%s Leave a Comment"
 msgstr ""
 
-#: acmethemes/hooks/footer.php:96
+#: acmethemes/hooks/footer.php:102
 #, php-format
 msgid "%1$s by %2$s"
 msgstr ""
 
-#: acmethemes/hooks/header-helper.php:52
+#: acmethemes/hooks/header-helper.php:50
 msgid "Recent posts"
 msgstr ""
 
-#: acmethemes/hooks/header.php:123
+#: acmethemes/hooks/header.php:116
 msgid "Skip to content"
 msgstr ""
 
@@ -1729,98 +1701,99 @@ msgstr ""
 msgid "AT Construction Field Widgets"
 msgstr ""
 
-#: acmethemes/hooks/slider-selection.php:34
+#: acmethemes/hooks/slider-selection.php:33
 msgid "Building the World Together"
 msgstr ""
 
-#: acmethemes/hooks/tgm.php:17
-msgid "Acme Demo Setup"
-msgstr ""
-
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:264
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:269
 msgid "Browse:"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:265
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:270
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:266
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:271
 msgid "Home"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:267
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:272
 msgid "404 Not Found"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:268
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:273
 msgid "Archives"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:270
+#. Translators: %s is the search query.
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:275
 #, php-format
 msgid "Search results for: %s"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:272
+#. Translators: %s is the page number.
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:277
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:274
+#. Translators: %s is the page number.
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:279
 #, php-format
 msgid "Comment Page %s"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:276
+#. Translators: Minute archive title. %s is the minute time format.
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:281
 #, php-format
 msgid "Minute %s"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:278
+#. Translators: Weekly archive title. %s is the week date format.
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:283
 #, php-format
 msgid "Week %s"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:738
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:743
 msgctxt "minute and hour archives time format"
 msgid "g:i a"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:755
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:760
 msgctxt "minute archives time format"
 msgid "i"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:772
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:777
 msgctxt "hour archives time format"
 msgid "g a"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:788
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:817
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:844
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:871
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:1211
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:793
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:822
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:849
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:876
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:1216
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:789
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:845
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:1215
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:794
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:850
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:1220
 msgctxt "monthly archives date format"
 msgid "F"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:790
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:1219
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:795
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:1224
 msgctxt "daily archives date format"
 msgid "j"
 msgstr ""
 
-#: acmethemes/library/breadcrumbs/breadcrumbs.php:818
+#: acmethemes/library/breadcrumbs/breadcrumbs.php:823
 msgctxt "weekly archives date format"
 msgid "W"
 msgstr ""
@@ -1833,11 +1806,13 @@ msgstr ""
 msgid "Install Plugins"
 msgstr ""
 
+#. translators: %s: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:330
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
+#. translators: %s: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:332
 #, php-format
 msgid "Updating Plugin: %s"
@@ -1847,65 +1822,67 @@ msgstr ""
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:336
+#. translators: 1: plugin name(s).
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:334
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:342
+#. translators: 1: plugin name(s).
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:340
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:348
+#. translators: 1: plugin name(s).
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:346
 #, php-format
-msgid ""
-"The following plugin needs to be updated to its latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgid_plural ""
-"The following plugins need to be updated to their latest version to ensure "
-"maximum compatibility with this theme: %1$s."
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:354
+#. translators: 1: plugin name(s).
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:352
 #, php-format
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:360
+#. translators: 1: plugin name(s).
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:358
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:366
+#. translators: 1: plugin name(s).
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:364
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:371
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:370
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:376
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:375
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: acmethemes/library/tgm/class-tgm-plugin-activation.php:381
+#: acmethemes/library/tgm/class-tgm-plugin-activation.php:380
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
@@ -1934,18 +1911,19 @@ msgid_plural "The following plugins were activated successfully:"
 msgstr[0] ""
 msgstr[1] ""
 
+#. translators: 1: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:390
 #, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:392
 #, php-format
-msgid ""
-"Plugin not activated. A higher version of %s is needed for this theme. "
-"Please update the plugin."
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
 msgstr ""
 
+#. translators: 1: dashboard link.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:394
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
@@ -1956,9 +1934,7 @@ msgid "Dismiss this notice"
 msgstr ""
 
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:396
-msgid ""
-"There are one or more required or recommended plugins to install, update or "
-"activate."
+msgid "There are one or more required or recommended plugins to install, update or activate."
 msgstr ""
 
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:397
@@ -1974,22 +1950,16 @@ msgid "Update Required"
 msgstr ""
 
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:934
-msgid ""
-"The remote plugin package does not contain a folder with the desired slug "
-"and renaming did not work."
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
 msgstr ""
 
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:934
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:937
-msgid ""
-"Please contact the plugin provider and ask them to package their plugin "
-"according to the WordPress guidelines."
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
 msgstr ""
 
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:937
-msgid ""
-"The remote plugin package consists of more than one file, but the files are "
-"not packaged in a folder."
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
 msgstr ""
 
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:1121
@@ -1998,6 +1968,7 @@ msgctxt "plugin A *and* plugin B"
 msgid "and"
 msgstr ""
 
+#. translators: %s: version number
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:1982
 #, php-format
 msgid "TGMPA v%s"
@@ -2047,12 +2018,14 @@ msgstr ""
 msgid "Update recommended"
 msgstr ""
 
+#. translators: 1: install status, 2: update status
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:2342
 #, php-format
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
 msgstr ""
 
+#. translators: 1: number of plugins.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:2388
 #, php-format
 msgctxt "plugins"
@@ -2061,6 +2034,7 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
+#. translators: 1: number of plugins.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:2392
 #, php-format
 msgid "To Install <span class=\"count\">(%s)</span>"
@@ -2068,6 +2042,7 @@ msgid_plural "To Install <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
+#. translators: 1: number of plugins.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:2396
 #, php-format
 msgid "Update Available <span class=\"count\">(%s)</span>"
@@ -2075,6 +2050,7 @@ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
+#. translators: 1: number of plugins.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:2400
 #, php-format
 msgid "To Activate <span class=\"count\">(%s)</span>"
@@ -2123,16 +2099,19 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
+#. translators: %2$s: plugin name in screen reader markup
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:2603
 #, php-format
 msgid "Install %2$s"
 msgstr ""
 
+#. translators: %2$s: plugin name in screen reader markup
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:2608
 #, php-format
 msgid "Update %2$s"
 msgstr ""
 
+#. translators: %2$s: plugin name in screen reader markup
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:2614
 #, php-format
 msgid "Activate %2$s"
@@ -2174,37 +2153,41 @@ msgstr ""
 msgid "Plugin activation failed."
 msgstr ""
 
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3498
 #, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
+#. translators: 1: plugin name, 2: error message.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3501
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3503
 #, php-format
 msgid "The installation of %1$s failed."
 msgstr ""
 
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3507
-msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3509
 #, php-format
 msgid "%1$s installed and activated successfully."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3509
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3517
 msgid "Show Details"
 msgstr ""
 
+#. translators: 1: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3509
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3517
 msgid "Hide Details"
@@ -2214,17 +2197,17 @@ msgstr ""
 msgid "All installations and activations have been completed."
 msgstr ""
 
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3512
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3515
-msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
 msgstr ""
 
+#. translators: 1: plugin name.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3517
 #, php-format
 msgid "%1$s installed successfully."
@@ -2234,6 +2217,7 @@ msgstr ""
 msgid "All installations have been completed."
 msgstr ""
 
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
 #: acmethemes/library/tgm/class-tgm-plugin-activation.php:3520
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
@@ -2292,9 +2276,7 @@ msgstr ""
 #: acmethemes/sidebar-widget/acme-social.php:47
 #: acmethemes/sidebar-widget/acme-team.php:48
 #: acmethemes/sidebar-widget/acme-testimonial.php:48
-msgid ""
-"Enter a Unique Section ID. You can use this ID in Menu item for enabling One "
-"Page Menu."
+msgid "Enter a Unique Section ID. You can use this ID in Menu item for enabling One Page Menu."
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-about.php:56
@@ -2308,9 +2290,7 @@ msgstr ""
 
 #: acmethemes/sidebar-widget/acme-about.php:58
 #: acmethemes/sidebar-widget/acme-service.php:75
-msgid ""
-"Add Page, Reorder and Remove. Please do not forget to add Icon and Excerpt "
-"on selected pages."
+msgid "Add Page, Reorder and Remove. Please do not forget to add Icon and Excerpt on selected pages."
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-about.php:75
@@ -2458,9 +2438,7 @@ msgid "Normal Featured Post Image"
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-col-posts.php:234
-msgid ""
-"Note: Some of the features only work in \"Home main content area\" due to "
-"minimum width in other areas."
+msgid "Note: Some of the features only work in \"Home main content area\" due to minimum width in other areas."
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-contact.php:26
@@ -2485,9 +2463,7 @@ msgid "Select Page For Contact"
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-contact.php:66
-msgid ""
-"Select page and its title and excerpt will display in the frontend. No need "
-"of subpages."
+msgid "Select page and its title and excerpt will display in the frontend. No need of subpages."
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-feature.php:21
@@ -2538,9 +2514,7 @@ msgid "Show Gallery Section."
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-gallery.php:59
-msgid ""
-"Add Page, Reorder and Remove. Please do not forget to add Featured Image on "
-"selected pages. "
+msgid "Add Page, Reorder and Remove. Please do not forget to add Featured Image on selected pages. "
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-gallery.php:170
@@ -2573,9 +2547,7 @@ msgid "Show Team Section."
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-team.php:57
-msgid ""
-"Add Page, Reorder and Remove. Please do not forget to add Featured Image and "
-"Excerpt on selected pages"
+msgid "Add Page, Reorder and Remove. Please do not forget to add Featured Image and Excerpt on selected pages"
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-testimonial.php:26
@@ -2587,9 +2559,7 @@ msgid "Show Testimonial Section."
 msgstr ""
 
 #: acmethemes/sidebar-widget/acme-testimonial.php:91
-msgid ""
-"Add Page, Reorder and Remove. Please do not forget to add Featured Image and "
-"Excerpt on selected pages. "
+msgid "Add Page, Reorder and Remove. Please do not forget to add Featured Image and Excerpt on selected pages. "
 msgstr ""
 
 #: acmethemes/sidebar-widget/sidebar.php:31
@@ -2606,17 +2576,11 @@ msgstr ""
 
 #: acmethemes/sidebar-widget/sidebar.php:116
 #, php-format
-msgid ""
-"Displays widgets on home page main content area.%1$s Note : Please go to "
-"%2$s \"Static Front Page\"%3$s setting, Select \"A static page\" then "
-"\"Front page\" and \"Posts page\" to show added widgets"
+msgid "Displays widgets on home page main content area.%1$s Note : Please go to %2$s \"Static Front Page\"%3$s setting, Select \"A static page\" then \"Front page\" and \"Posts page\" to show added widgets"
 msgstr ""
 
 #: acmethemes/sidebar-widget/sidebar.php:119
-msgid ""
-"Displays widgets on Front/Home page. Note : Please go to Setting => Reading, "
-"Select \"A static page\" then \"Front page\" and \"Posts page\" to show "
-"added widgets"
+msgid "Displays widgets on Front/Home page. Note : Please go to Setting => Reading, Select \"A static page\" then \"Front page\" and \"Posts page\" to show added widgets"
 msgstr ""
 
 #: acmethemes/sidebar-widget/sidebar.php:142
@@ -2650,13 +2614,15 @@ msgstr ""
 msgid "Displays items on Pop up"
 msgstr ""
 
+#. translators: %s: post title
 #: comments.php:32
 #, php-format
 msgctxt "comments title"
 msgid "One Thought to &ldquo;%s&rdquo;"
 msgstr ""
 
-#: comments.php:37
+#. translators: 1: number of comments, 2: post title
+#: comments.php:36
 #, php-format
 msgctxt "comments title"
 msgid "%1$s Thought to &ldquo;%2$s&rdquo;"
@@ -2664,15 +2630,18 @@ msgid_plural "%1$s Thoughts to &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:51 comments.php:72
+#: comments.php:51
+#: comments.php:72
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:54 comments.php:74
+#: comments.php:54
+#: comments.php:74
 msgid "Older Comments"
 msgstr ""
 
-#: comments.php:55 comments.php:75
+#: comments.php:55
+#: comments.php:75
 msgid "Newer Comments"
 msgstr ""
 
@@ -2680,16 +2649,66 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
+#: functions.php:39
+msgid "News :"
+msgstr ""
+
+#: functions.php:62
+msgid "Send Us a Mail"
+msgstr ""
+
+#: functions.php:63
+msgid "domain@example.com "
+msgstr ""
+
+#: functions.php:65
+msgid "Our Location"
+msgstr ""
+
+#: functions.php:66
+msgid "Elmonte California"
+msgstr ""
+
+#: functions.php:68
+msgid "Call Us"
+msgstr ""
+
+#: functions.php:69
+msgid "01-23456789-10"
+msgstr ""
+
+#: functions.php:71
+msgid "Office Hours"
+msgstr ""
+
+#: functions.php:72
+msgid "8 hours per day"
+msgstr ""
+
+#: functions.php:75
+msgid "&copy; Custom Copyright"
+msgstr ""
+
+#: functions.php:89
+msgid "Read More"
+msgstr ""
+
+#: functions.php:108
+msgid "Blog"
+msgstr ""
+
+#. Template Name of the theme
+msgid "AT Builder Page"
+msgstr ""
+
 #: search.php:19
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: single.php:54
+#: single.php:57
 msgctxt "Parent post link"
-msgid ""
-"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
-"%title</span>"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr ""
 
 #: template-parts/content-none.php:13
@@ -2698,40 +2717,25 @@ msgstr ""
 
 #: template-parts/content-none.php:20
 #, php-format
-msgid ""
-"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: template-parts/content-none.php:23
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
 #: template-parts/content-none.php:28
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:26 template-parts/content-single.php:50
-#: template-parts/content.php:59
+#: template-parts/content-page.php:26
+#: template-parts/content-single.php:53
+#: template-parts/content.php:64
 msgid "Pages:"
 msgstr ""
 
-#: template-parts/content.php:55
+#. translators: %s: Name of current post.
+#: template-parts/content.php:58
 #, php-format
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "https://www.acmethemes.com/themes/construction-field/"
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "acmethemes"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://www.acmethemes.com/"
 msgstr ""

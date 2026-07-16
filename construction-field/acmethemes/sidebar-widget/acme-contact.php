@@ -42,18 +42,18 @@ if ( ! class_exists( 'Construction_Field_Contact' ) ) {
 	        $background_options     = esc_attr( $instance['background_options'] );
 	        ?>
             <p>
-                <label for="<?php echo $this->get_field_id( 'unique_id' ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?>:</label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'unique_id' ); ?>" name="<?php echo $this->get_field_name( 'unique_id' ); ?>" type="text" value="<?php echo $unique_id; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?>:</label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'unique_id' ) ); ?>" type="text" value="<?php echo $unique_id; ?>" />
                 <br />
                 <small><?php esc_html_e('Enter a Unique Section ID. You can use this ID in Menu item for enabling One Page Menu.','construction-field')?></small>
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?>:</label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?>:</label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo $title; ?>" />
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'shortcode' ); ?>"><?php esc_html_e( 'Enter Shortcode', 'construction-field' ); ?>:</label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'shortcode' ); ?>" name="<?php echo $this->get_field_name( 'shortcode' ); ?>" type="text" value="<?php echo $shortcode; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'shortcode' ) ); ?>"><?php esc_html_e( 'Enter Shortcode', 'construction-field' ); ?>:</label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'shortcode' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'shortcode' ) ); ?>" type="text" value="<?php echo $shortcode; ?>" />
                 <small>
                     <?php
                     printf( esc_html__( 'Download contact form 7 from %1$shere%2$s', 'construction-field' ), "<a target='_blank' href='".esc_url( 'https://wordpress.org/plugins/contact-form-7/' )."''>","</a>" );
@@ -61,7 +61,7 @@ if ( ! class_exists( 'Construction_Field_Contact' ) ) {
                 </small>
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'page_id' ); ?>"><?php esc_html_e( 'Select Page For Contact', 'construction-field' ); ?>:</label>
+                <label for="<?php echo esc_attr( $this->get_field_id( 'page_id' ) ); ?>"><?php esc_html_e( 'Select Page For Contact', 'construction-field' ); ?>:</label>
                 <br />
                 <small><?php esc_html_e( 'Select page and its title and excerpt will display in the frontend. No need of subpages.', 'construction-field' ); ?></small>
                 <?php
@@ -78,8 +78,8 @@ if ( ! class_exists( 'Construction_Field_Contact' ) ) {
                 ?>
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'background_options' ); ?>"><?php esc_html_e( 'Background Options', 'construction-field' ); ?>:</label>
-                <select class="widefat" id="<?php echo $this->get_field_id( 'background_options' ); ?>" name="<?php echo $this->get_field_name( 'background_options' ); ?>">
+                <label for="<?php echo esc_attr( $this->get_field_id( 'background_options' ) ); ?>"><?php esc_html_e( 'Background Options', 'construction-field' ); ?>:</label>
+                <select class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'background_options' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'background_options' ) ); ?>">
 			        <?php
 			        $construction_field_background_options = construction_field_background_options();
 			        foreach ( $construction_field_background_options as $key => $value ) {
@@ -144,7 +144,7 @@ if ( ! class_exists( 'Construction_Field_Contact' ) ) {
 
             echo $args['before_widget'];
             ?>
-            <section id="<?php echo $unique_id;?>" class="at-widgets acme-contact <?php echo $bg_gray_class;?>">
+            <section id="<?php echo esc_attr( $unique_id ); ?>" class="at-widgets acme-contact <?php echo esc_attr( $bg_gray_class ); ?>">
                 <div class="contact-form">
                     <div class="container">
                         <?php
@@ -170,7 +170,7 @@ if ( ! class_exists( 'Construction_Field_Contact' ) ) {
 		                        if ( $contact_page_query->have_posts() ):
 			                        while( $contact_page_query->have_posts() ):$contact_page_query->the_post();
 				                        ?>
-                                        <div class="col-sm-6  <?php echo $animation1; ?>">
+                                        <div class="col-sm-6  <?php echo esc_attr( $animation1 ); ?>">
 	                                        <?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
                                             <div class="contact-page-content">
 		                                        <?php
@@ -185,7 +185,7 @@ if ( ! class_exists( 'Construction_Field_Contact' ) ) {
 		                        wp_reset_postdata();
 	                        endif;
 	                        ?>
-                            <div class="col-sm-6  <?php echo $next_col.' '.$animation2; ?>">
+                            <div class="col-sm-6  <?php echo esc_attr( $next_col.' '.$animation2 ); ?>">
                                 <?php echo do_shortcode( $shortcode ); ?>
                             </div>
 

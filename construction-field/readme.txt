@@ -2,10 +2,10 @@
 
 Contributors: acmethemes
 Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, portfolio, education, rtl-language-support
-Requires at least: 4.8
-Requires PHP: 5.6.20
-Tested up to: 6.8
-Stable tag: 3.0.8
+Requires at least: 6.6
+Requires PHP: 7.4
+Tested up to: 7.0
+Stable tag: 4.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,11 +52,13 @@ Construction Field bundles the following third-party resources:
 
 == Screenshots ==
 
-- https://pixabay.com/en/construction-site-working-sea-3124294/ - License CC0 Public Domain
-- bobcat.jpg https://pixabay.com/en/bobcat-construction-equipment-bucket-3248721/ - License CC0 Public Domain
 - default-image.jpg *Self Created - License CC0 Public Domain
 
 == Change log ==
+
+= 4.0.0 - Jul 14 2026 =
+* Updated: WordPress 7.0 compatibility
+* Updated: Requires PHP 7.4
 
 = 3.0.7 - Jan 22 2025 =
 * Added: Enhanced support for the latest WordPress version.
@@ -154,3 +156,13 @@ Construction Field bundles the following third-party resources:
 1. In the admin area, go to Appearance > Customize
 2. You will find different options in customizer
 3. Add/Edit Widgets, Page and Post
+
+== Installation ==
+
+1. Download the theme zip file.
+2. In your Admin Dashboard go to Appearance > Themes.
+3. Click on the Add New button.
+4. Click Upload Plugin and then click Choose File.
+5. Select the downloaded zip file and click Install Now.
+6. After installation, click Activate.
+

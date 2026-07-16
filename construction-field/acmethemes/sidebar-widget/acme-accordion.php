@@ -262,7 +262,7 @@ if ( ! class_exists( 'Construction_Field_Accordion' ) ) {
                             $col= 'col-md-6';
                         }
                         ?>
-                        <div class="<?php echo $col;?>">
+                        <div class="<?php echo esc_attr( $col ); ?>">
                             <div class="accordion-content">
 	                            <?php
 	                            $post_in = array();
@@ -319,7 +319,7 @@ if ( ! class_exists( 'Construction_Field_Accordion' ) ) {
 		                    if ( $service_query->have_posts() ):
 			                    while( $service_query->have_posts() ):$service_query->the_post();
 				                    ?>
-                                    <div class="col-sm-6  <?php echo $animation1; ?>">
+                                    <div class="col-sm-6  <?php echo esc_attr( $animation1 ); ?>">
 	                                    <?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
                                         <div class="contact-page-content">
 		                                    <?php

@@ -41,14 +41,14 @@ if ( ! class_exists( 'Construction_Field_Social' ) ) {
             $title      = esc_attr( $instance[ 'title' ] );
 	        ?>
             <p>
-                <label for="<?php echo $this->get_field_id( 'unique_id' ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'unique_id' ); ?>" name="<?php echo $this->get_field_name( 'unique_id' ); ?>" type="text" value="<?php echo $unique_id; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'unique_id' ) ); ?>" type="text" value="<?php echo $unique_id; ?>" />
                 <br />
                 <small><?php esc_html_e('Enter a Unique Section ID. You can use this ID in Menu item for enabling One Page Menu.','construction-field')?></small>
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo $title; ?>" />
             </p>
             <p>
                 <?php
@@ -97,7 +97,7 @@ if ( ! class_exists( 'Construction_Field_Social' ) ) {
 
             echo $args['before_widget'];
             ?>
-            <section id="<?php echo $unique_id;?>" class="at-widgets at-social">
+            <section id="<?php echo esc_attr( $unique_id ); ?>" class="at-widgets at-social">
                 <div class="container">
 	                <?php
 	                if( ! empty( $title ) ){
@@ -108,7 +108,7 @@ if ( ! class_exists( 'Construction_Field_Social' ) ) {
 	                $animation1 = "init-animate zoomIn";
 	                ?>
                     <div class="row">
-                        <div class="col-sm-12 <?php echo $animation1; ?>">
+                        <div class="col-sm-12 <?php echo esc_attr( $animation1 ); ?>">
                             <?php
                             do_action('construction_field_action_social_links');
                             ?>

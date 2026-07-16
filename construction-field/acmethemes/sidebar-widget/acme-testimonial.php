@@ -42,13 +42,13 @@ if ( ! class_exists( 'Construction_Field_Testimonial' ) ) {
 	        $at_all_page_items  = $instance['at_all_page_items'];
 	        ?>
             <p>
-                <label for="<?php echo $this->get_field_id( 'unique_id' ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'unique_id' ); ?>" name="<?php echo $this->get_field_name( 'unique_id' ); ?>" type="text" value="<?php echo $unique_id; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'unique_id' ) ); ?>" type="text" value="<?php echo $unique_id; ?>" />
                 <br />
                 <small><?php esc_html_e('Enter a Unique Section ID. You can use this ID in Menu item for enabling One Page Menu.','construction-field')?></small>
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id('bg_image'); ?>">
+                <label for="<?php echo esc_attr( $this->get_field_id( 'bg_image' ) ); ?>">
                     <?php esc_html_e( 'Select Background Image', 'construction-field' ); ?>
                 </label>
                 <?php
@@ -60,13 +60,13 @@ if ( ! class_exists( 'Construction_Field_Testimonial' ) ) {
                 <span class="img-preview-wrap" <?php echo  $construction_field_display_none ; ?>>
                     <img class="widefat" src="<?php echo esc_url( $bg_image ); ?>" alt="<?php esc_attr_e( 'Image preview', 'construction-field' ); ?>"  />
                 </span><!-- .img-preview-wrap -->
-                <input type="text" class="widefat" name="<?php echo $this->get_field_name('bg_image'); ?>" id="<?php echo $this->get_field_id('bg_image'); ?>" value="<?php echo esc_url( $bg_image ); ?>" />
+                <input type="text" class="widefat" name="<?php echo esc_attr( $this->get_field_name( 'bg_image' ) ); ?>" id="<?php echo esc_attr( $this->get_field_id( 'bg_image' ) ); ?>" value="<?php echo esc_url( $bg_image ); ?>" />
                 <input type="button" value="<?php esc_attr_e( 'Upload Image', 'construction-field' ); ?>" class="button media-image-upload" data-title="<?php esc_attr_e( 'Select Background Image','construction-field'); ?>" data-button="<?php esc_attr_e( 'Select Background Image','construction-field'); ?>"/>
                 <input type="button" value="<?php esc_attr_e( 'Remove Image', 'construction-field' ); ?>" class="button media-image-remove" />
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo $title; ?>" />
             </p>
             <p>
                 <label for="<?php echo esc_attr( $this->get_field_id( 'page_id' ) ); ?>"><?php esc_html_e( 'Select Page', 'construction-field' ); ?></label>
@@ -283,7 +283,7 @@ if ( ! class_exists( 'Construction_Field_Testimonial' ) ) {
 		                    if ( $service_query->have_posts() ):
 			                    while( $service_query->have_posts() ):$service_query->the_post();
 				                    ?>
-                                    <div class="<?php echo $col;?>  <?php echo $animation1; ?>">
+                                    <div class="<?php echo esc_attr( $col ); ?>  <?php echo esc_attr( $animation1 ); ?>">
 					                    <?php
 					                    the_title( '<h3 class="entry-title">', '</h3>' );
 					                    the_content();

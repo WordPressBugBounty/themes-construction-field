@@ -42,14 +42,14 @@ if ( ! class_exists( 'Construction_Field_Team' ) ) {
 	        $background_options     = esc_attr( $instance['background_options'] );
 	        ?>
             <p>
-                <label for="<?php echo $this->get_field_id( 'unique_id' ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'unique_id' ); ?>" name="<?php echo $this->get_field_name( 'unique_id' ); ?>" type="text" value="<?php echo $unique_id; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>"><?php esc_html_e( 'Section ID', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'unique_id' ) ); ?>" type="text" value="<?php echo $unique_id; ?>" />
                 <br />
                 <small><?php esc_html_e('Enter a Unique Section ID. You can use this ID in Menu item for enabling One Page Menu.','construction-field')?></small>
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?></label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>"><?php esc_html_e( 'Title', 'construction-field' ); ?></label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo $title; ?>" />
             </p>
             <!--updated code-->
             <label><?php esc_html_e( 'Select Pages', 'construction-field' ); ?></label>
@@ -151,8 +151,8 @@ if ( ! class_exists( 'Construction_Field_Team' ) ) {
 		        ?>
             </div>
             <p>
-                <label for="<?php echo $this->get_field_id( 'column_number' ); ?>"><?php esc_html_e( 'Column Number', 'construction-field' ); ?></label>
-                <select class="widefat" id="<?php echo $this->get_field_id( 'column_number' ); ?>" name="<?php echo $this->get_field_name( 'column_number' ); ?>" >
+                <label for="<?php echo esc_attr( $this->get_field_id( 'column_number' ) ); ?>"><?php esc_html_e( 'Column Number', 'construction-field' ); ?></label>
+                <select class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'column_number' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'column_number' ) ); ?>" >
                     <?php
                     $construction_field_team_column_numbers = construction_field_widget_column_number();
                     foreach ( $construction_field_team_column_numbers as $key => $value ){
@@ -164,8 +164,8 @@ if ( ! class_exists( 'Construction_Field_Team' ) ) {
                 </select>
             </p>
             <p>
-                <label for="<?php echo $this->get_field_id( 'background_options' ); ?>"><?php esc_html_e( 'Background Options', 'construction-field' ); ?></label>
-                <select class="widefat" id="<?php echo $this->get_field_id( 'background_options' ); ?>" name="<?php echo $this->get_field_name( 'background_options' ); ?>">
+                <label for="<?php echo esc_attr( $this->get_field_id( 'background_options' ) ); ?>"><?php esc_html_e( 'Background Options', 'construction-field' ); ?></label>
+                <select class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'background_options' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'background_options' ) ); ?>">
 			        <?php
 			        $construction_field_background_options = construction_field_background_options();
 			        foreach ( $construction_field_background_options as $key => $value ) {
@@ -305,7 +305,7 @@ if ( ! class_exists( 'Construction_Field_Team' ) ) {
 	                                                }
 	                                                ?>
                                                 </div>
-                                                <div class="team-author-details <?php echo $team_no_img; ?>">
+                                                <div class="team-author-details <?php echo esc_attr( $team_no_img ); ?>">
 		                                            <?php the_title( sprintf( '<h3 class="team-name"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
                                                     <div class="team-details">
 			                                            <?php

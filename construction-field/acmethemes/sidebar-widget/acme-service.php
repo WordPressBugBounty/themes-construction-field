@@ -53,7 +53,7 @@ if ( ! class_exists( 'Construction_Field_Service' ) ) {
             </p>
 
             <p>
-                <label for="<?php echo $this->get_field_id('bg_image'); ?>">
+                <label for="<?php echo esc_attr( $this->get_field_id( 'bg_image' ) ); ?>">
 					<?php esc_html_e( 'Select Background Image', 'construction-field' ); ?>
                 </label>
 				<?php
@@ -65,7 +65,7 @@ if ( ! class_exists( 'Construction_Field_Service' ) ) {
                 <span class="img-preview-wrap" <?php echo  $construction_field_display_none ; ?>>
                     <img class="widefat" src="<?php echo esc_url( $bg_image ); ?>" alt="<?php esc_attr_e( 'Image preview', 'construction-field' ); ?>"  />
                 </span><!-- .img-preview-wrap -->
-                <input type="text" class="widefat" name="<?php echo $this->get_field_name('bg_image'); ?>" id="<?php echo $this->get_field_id('bg_image'); ?>" value="<?php echo esc_url( $bg_image ); ?>" />
+                <input type="text" class="widefat" name="<?php echo esc_attr( $this->get_field_name( 'bg_image' ) ); ?>" id="<?php echo esc_attr( $this->get_field_id( 'bg_image' ) ); ?>" value="<?php echo esc_url( $bg_image ); ?>" />
                 <input type="button" value="<?php esc_attr_e( 'Upload Image', 'construction-field' ); ?>" class="button media-image-upload" data-title="<?php esc_attr_e( 'Select Background Image','construction-field'); ?>" data-button="<?php esc_attr_e( 'Select Background Image','construction-field'); ?>"/>
                 <input type="button" value="<?php esc_attr_e( 'Remove Image', 'construction-field' ); ?>" class="button media-image-remove" />
             </p>
@@ -257,7 +257,7 @@ if ( ! class_exists( 'Construction_Field_Service' ) ) {
 						echo "</div>";
 					}
 					?>
-                    <div <?php echo $div_attr;?>>
+                    <div <?php echo esc_attr( $div_attr ); ?>>
 						<?php
 						$post_in = array();
 						if  ( is_array($at_all_page_items) && count($at_all_page_items) > 0 ){
@@ -339,7 +339,7 @@ if ( ! class_exists( 'Construction_Field_Service' ) ) {
                                 ?>
                                 <div class="<?php echo esc_attr( $unique_col );?>">
                                     <div class="featured-image-wrap">
-                                        <img src="<?php echo $bg_image;?>">
+                                        <img src="<?php echo esc_url( $bg_image ); ?>">
                                     </div>
                                 </div>
                                 <?php

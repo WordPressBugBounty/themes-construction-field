@@ -34,8 +34,23 @@ if( !function_exists( 'construction_field_slider_fixed') ){
 	function construction_field_slider_fixed(){
 		$construction_field_get_theme_options = construction_field_get_theme_options();
 
-		$page_1 = get_page_by_title( 'Building Your Dream Together' );
-		$page_2 = get_page_by_title( 'Amazing Construction Theme' );
+		$page_1_query = new WP_Query( array(
+			'post_type'      => 'page',
+			'post_status'    => 'publish',
+			'title'          => 'Building Your Dream Together',
+			'posts_per_page' => 1,
+			'fields'         => 'ids',
+		) );
+		$page_1 = $page_1_query->have_posts() ? get_post( $page_1_query->posts[0] ) : null;
+
+		$page_2_query = new WP_Query( array(
+			'post_type'      => 'page',
+			'post_status'    => 'publish',
+			'title'          => 'Amazing Construction Theme',
+			'posts_per_page' => 1,
+			'fields'         => 'ids',
+		) );
+		$page_2 = $page_2_query->have_posts() ? get_post( $page_2_query->posts[0] ) : null;
 
 		$page_ids = array();
 

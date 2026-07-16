@@ -65,8 +65,8 @@ if ( ! class_exists( 'Construction_Field_Posts_Col' ) ) {
 
 	        ?>
             <p>
-                <label for="<?php echo $this->get_field_id( 'unique_id' ); ?>"><?php _e( 'Section ID', 'construction-field' ); ?>:</label>
-                <input class="widefat" id="<?php echo $this->get_field_id( 'unique_id' ); ?>" name="<?php echo $this->get_field_name( 'unique_id' ); ?>" type="text" value="<?php echo $unique_id; ?>" />
+                <label for="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>"><?php _e( 'Section ID', 'construction-field' ); ?>:</label>
+                <input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'unique_id' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'unique_id' ) ); ?>" type="text" value="<?php echo $unique_id; ?>" />
                 <br />
                 <small><?php _e('Enter a Unique Section ID. You can use this ID in Menu item for enabling One Page Menu.','construction-field')?></small>
             </p>
@@ -212,7 +212,7 @@ if ( ! class_exists( 'Construction_Field_Posts_Col' ) ) {
 			        <?php
 			        $construction_field_image_sizes = construction_field_get_image_sizes_options();
 			        foreach( $construction_field_image_sizes as $key => $construction_field_column_array ){
-				        echo ' <option value="'.esc_attr( $key ).'" '.selected( $construction_field_img_size, $key, 0). '>'.esc_attr( $construction_field_column_array ).'</option>';
+				        echo ' <option value="'.esc_attr( $key ).'" '.selected( esc_attr( $construction_field_img_size ), $key, 0). '>'.esc_attr( $construction_field_column_array ).'</option>';
 			        }
 			        ?>
                 </select>
@@ -385,7 +385,7 @@ if ( ! class_exists( 'Construction_Field_Posts_Col' ) ) {
 	                        echo "</span>";/*.at-action-wrapper*/
                         }
                         ?>
-                        <div <?php echo $div_attr;?>>
+                        <div <?php echo esc_attr( $div_attr ); ?>>
                             <?php
                             $construction_field_featured_index = 1;
                             while ( $construction_field_featured_query->have_posts() ) :$construction_field_featured_query->the_post();
@@ -438,7 +438,7 @@ if ( ! class_exists( 'Construction_Field_Posts_Col' ) ) {
                                                 } 
                                                 ?>
                                             </div>
-                                            <div class="entry-content <?php echo $no_blog_image?>">
+                                            <div class="entry-content <?php echo esc_attr( $no_blog_image ); ?>">
                                                 <div class="entry-header-title">
 	                                                <?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
                                                 </div>

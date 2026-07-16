@@ -130,7 +130,9 @@ require construction_field_file_directory('acmethemes/gutenberg/gutenberg-init.p
 /*themes info
 */
 if ( is_admin() ) {
+add_action('init', function() {
     require construction_field_file_directory('acmethemes/at-theme-info/class-at-theme-info.php');
+    });
     require construction_field_file_directory('acmethemes/admin-notice/class-admin-notice-handler.php');
 }
 
